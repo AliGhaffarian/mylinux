@@ -1,0 +1,1840 @@
+{
+    "data": [
+        {
+            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+            "spans": [
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "47b897599fb6af0f",
+                    "flags": 1,
+                    "operationName": "runTest",
+                    "references": [],
+                    "startTime": 1715353290381941,
+                    "duration": 232707,
+                    "tags": [
+                        {
+                            "key": "test_name",
+                            "type": "string",
+                            "value": "/ScotlandYard.json"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "9aca5d24709d50b9",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "47b897599fb6af0f"
+                        }
+                    ],
+                    "startTime": 1715353290381968,
+                    "duration": 132537,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:41021/"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41021"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "543570cd88719b23",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "daa3fe17d626e3c5"
+                        }
+                    ],
+                    "startTime": 1715353290411575,
+                    "duration": 64212,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:39401/getCriminal"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:39401"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "56e8070bdec033da",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "daa3fe17d626e3c5"
+                        }
+                    ],
+                    "startTime": 1715353290382508,
+                    "duration": 29034,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:34395/getCase"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34395"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "cb80fd70dd292d30",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "daa3fe17d626e3c5"
+                        }
+                    ],
+                    "startTime": 1715353290475810,
+                    "duration": 27221,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:35863/getAddress"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:35863"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "daa3fe17d626e3c5",
+                    "flags": 1,
+                    "operationName": "/",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "9aca5d24709d50b9"
+                        }
+                    ],
+                    "startTime": 1715353290382474,
+                    "duration": 131842,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 59756
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 41021
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41021"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p2",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "d2338fbc038ffeb4",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "c029f9f48269bcc5"
+                        }
+                    ],
+                    "startTime": 1715353290411955,
+                    "duration": 14761,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:34545/sqlSelect"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "b56c0ac5463a3608",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "c029f9f48269bcc5"
+                        }
+                    ],
+                    "startTime": 1715353290426734,
+                    "duration": 10798,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:44877/getPhoto"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:44877"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "39aa2a406f587112",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "c029f9f48269bcc5"
+                        }
+                    ],
+                    "startTime": 1715353290437607,
+                    "duration": 14886,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:41039/getCriminalData"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41039"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "6525c55a827bf114",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "c029f9f48269bcc5"
+                        }
+                    ],
+                    "startTime": 1715353290437591,
+                    "duration": 17171,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:41251/getCriminalData"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41251"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "06f76db86d3fa309",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "c029f9f48269bcc5"
+                        }
+                    ],
+                    "startTime": 1715353290437575,
+                    "duration": 24817,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:45939/getCriminalData"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:45939"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "c029f9f48269bcc5",
+                    "flags": 1,
+                    "operationName": "/getCriminal",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "543570cd88719b23"
+                        }
+                    ],
+                    "startTime": 1715353290411915,
+                    "duration": 63749,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 43262
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 39401
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getCriminal"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getCriminal"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:39401"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p3",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "ff8d98ae7b01ad79",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "90eb335a4b4f17b5"
+                        }
+                    ],
+                    "startTime": 1715353290382784,
+                    "duration": 13136,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:34545/sqlSelect"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "90eb335a4b4f17b5",
+                    "flags": 1,
+                    "operationName": "/getCase",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "56e8070bdec033da"
+                        }
+                    ],
+                    "startTime": 1715353290382767,
+                    "duration": 28618,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 46902
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 34395
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getCase"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getCase"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34395"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p4",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "41ccf54b6ab09d2d",
+                    "flags": 1,
+                    "operationName": "/getAddress",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "cb80fd70dd292d30"
+                        }
+                    ],
+                    "startTime": 1715353290476057,
+                    "duration": 26788,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 41644
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 35863
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getAddress"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getAddress"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:35863"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "4d0ff706118704a6",
+                    "flags": 1,
+                    "operationName": "HTTP GET",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "41ccf54b6ab09d2d"
+                        }
+                    ],
+                    "startTime": 1715353290476075,
+                    "duration": 12173,
+                    "tags": [
+                        {
+                            "key": "http.url",
+                            "type": "string",
+                            "value": "http://127.0.0.1:34545/sqlSelect"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "client"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p5",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "63bb09209f3a32b6",
+                    "flags": 1,
+                    "operationName": "/sqlSelect",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "ff8d98ae7b01ad79"
+                        }
+                    ],
+                    "startTime": 1715353290383243,
+                    "duration": 12506,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 50584
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 34545
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "fb28d209c72b4ba4",
+                    "flags": 1,
+                    "operationName": "/sqlSelect",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "d2338fbc038ffeb4"
+                        }
+                    ],
+                    "startTime": 1715353290412374,
+                    "duration": 14264,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 50598
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 34545
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "bb5c2e57627d2454",
+                    "flags": 1,
+                    "operationName": "/sqlSelect",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "4d0ff706118704a6"
+                        }
+                    ],
+                    "startTime": 1715353290476170,
+                    "duration": 11888,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 50584
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 34545
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/sqlSelect"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:34545"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p6",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "78084e4cca82b7ad",
+                    "flags": 1,
+                    "operationName": "/getPhoto",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "b56c0ac5463a3608"
+                        }
+                    ],
+                    "startTime": 1715353290426923,
+                    "duration": 10546,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 58268
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 44877
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getPhoto"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getPhoto"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:44877"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p7",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "1ffe974342b641bd",
+                    "flags": 1,
+                    "operationName": "/getCriminalData",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "06f76db86d3fa309"
+                        }
+                    ],
+                    "startTime": 1715353290437734,
+                    "duration": 24585,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 34952
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 45939
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:45939"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p8",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "3d557128a2cf1ef0",
+                    "flags": 1,
+                    "operationName": "/getCriminalData",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "6525c55a827bf114"
+                        }
+                    ],
+                    "startTime": 1715353290437769,
+                    "duration": 16850,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 41160
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 41251
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41251"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p9",
+                    "warnings": null
+                },
+                {
+                    "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                    "spanID": "d5c3ebc84367d268",
+                    "flags": 1,
+                    "operationName": "/getCriminalData",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "1641f2d57d34cc0e86877ae3cc77756b",
+                            "spanID": "39aa2a406f587112"
+                        }
+                    ],
+                    "startTime": 1715353290437736,
+                    "duration": 14625,
+                    "tags": [
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 36314
+                        },
+                        {
+                            "key": "net.host.ip",
+                            "type": "string",
+                            "value": "127.0.0.1"
+                        },
+                        {
+                            "key": "net.host.port",
+                            "type": "int64",
+                            "value": 41039
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.server_name",
+                            "type": "string",
+                            "value": "/getCriminalData"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Go-http-client/1.1"
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "127.0.0.1:41039"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "jaeger"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p10",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "Sherlock",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "Sherlock"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "test-executor-2"
+                        }
+                    ]
+                },
+                "p10": {
+                    "serviceName": "Interpol",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "Interpol"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "Interpol-0"
+                        }
+                    ]
+                },
+                "p2": {
+                    "serviceName": "frontend",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "frontend"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "frontend-0"
+                        }
+                    ]
+                },
+                "p3": {
+                    "serviceName": "criminals",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "criminals"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "criminals-0"
+                        }
+                    ]
+                },
+                "p4": {
+                    "serviceName": "cases",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "cases"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "cases-0"
+                        }
+                    ]
+                },
+                "p5": {
+                    "serviceName": "addresses",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "addresses"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "addresses-0"
+                        }
+                    ]
+                },
+                "p6": {
+                    "serviceName": "InternalDB",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "InternalDB"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "InternalDB-0"
+                        }
+                    ]
+                },
+                "p7": {
+                    "serviceName": "InternalS3",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "InternalS3"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "InternalS3-0"
+                        }
+                    ]
+                },
+                "p8": {
+                    "serviceName": "MI6",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "MI6"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "MI6-0"
+                        }
+                    ]
+                },
+                "p9": {
+                    "serviceName": "CIA",
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "CIA"
+                        },
+                        {
+                            "key": "service-instance",
+                            "type": "string",
+                            "value": "CIA-0"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
