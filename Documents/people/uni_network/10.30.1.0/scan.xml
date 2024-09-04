@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Mon Jul  1 14:43:09 2024 as: nmap -F -oX scan.xml -&#45;traceroute 10.30.1.13/24 -->
+<nmaprun scanner="nmap" args="nmap -F -oX scan.xml -&#45;traceroute 10.30.1.13/24" start="1719832389" startstr="Mon Jul  1 14:43:09 2024" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.4" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.18" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.23" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.28" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.60" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.9" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.31" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.30.1.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="126"/>
+<address addr="10.30.1.2" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.2" rtt="37.70"/>
+</trace>
+<times srtt="28083" rttvar="14962" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="97" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="53" proto="tcp">
+<hop ttl="1" ipaddr="10.30.1.3" rtt="15.87"/>
+</trace>
+<times srtt="35766" rttvar="28948" to="151558"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="126"/>
+<address addr="10.30.1.4" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.4" rtt="17.28"/>
+</trace>
+<times srtt="23403" rttvar="13593" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832396"><status state="up" reason="echo-reply" reason_ttl="126"/>
+<address addr="10.30.1.6" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="91">
+<extrareasons reason="reset" count="91" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,143-144,179,199,389,427,444,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5432,5631,5666,5800,5900,6000-6001,6646,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3128"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="squid-http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5357"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="wsdapi" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7070"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="realserver" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.6" rtt="15.87"/>
+</trace>
+<times srtt="41935" rttvar="25588" to="144287"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="syn-ack" reason_ttl="126"/>
+<address addr="10.30.1.9" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.9" rtt="7.19"/>
+</trace>
+<times srtt="19513" rttvar="8924" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="syn-ack" reason_ttl="126"/>
+<address addr="10.30.1.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="90">
+<extrareasons reason="no-response" count="90" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.10" rtt="29.28"/>
+</trace>
+<times srtt="20453" rttvar="6189" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="syn-ack" reason_ttl="62"/>
+<address addr="10.30.1.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="97" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="443" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.11" rtt="19.14"/>
+</trace>
+<times srtt="19671" rttvar="6367" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832401"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.13" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+<extrareasons reason="admin-prohibited" count="8" proto="tcp" ports="25,110,143,465,993,995,8081,8443"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="61"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="53" proto="tcp">
+<hop ttl="1" ipaddr="10.30.1.13" rtt="19.10"/>
+</trace>
+<times srtt="11476" rttvar="8711" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832401"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="97" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="53" proto="tcp">
+<hop ttl="1" ipaddr="10.30.1.15" rtt="19.09"/>
+</trace>
+<times srtt="16484" rttvar="7548" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832401"><status state="up" reason="echo-reply" reason_ttl="126"/>
+<address addr="10.30.1.18" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.18" rtt="35.84"/>
+</trace>
+<times srtt="19236" rttvar="9664" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.19" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.19" rtt="35.08"/>
+</trace>
+<times srtt="17397" rttvar="8541" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.23" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="91">
+<extrareasons reason="no-response" count="91" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+</ports>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.23" rtt="33.21"/>
+</trace>
+<times srtt="21052" rttvar="13566" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.26" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="97" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="53" proto="tcp">
+<hop ttl="1" ipaddr="10.30.1.26" rtt="19.07"/>
+</trace>
+<times srtt="10113" rttvar="7115" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.27" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.27" rtt="23.09"/>
+</trace>
+<times srtt="14200" rttvar="7304" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.28" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.28" rtt="15.63"/>
+</trace>
+<times srtt="17560" rttvar="13303" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="reset" reason_ttl="126"/>
+<address addr="10.30.1.30" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="126"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="126"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="126"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="126"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="126"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="126"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="126"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="2" ipaddr="172.30.1.210" rtt="9.22"/>
+<hop ttl="3" ipaddr="10.30.1.30" rtt="15.60"/>
+</trace>
+<times srtt="16077" rttvar="2456" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="syn-ack" reason_ttl="62"/>
+<address addr="10.30.1.31" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="97">
+<extrareasons reason="no-response" count="97" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<trace port="443" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.31" rtt="15.60"/>
+</trace>
+<times srtt="16176" rttvar="4830" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.33" rtt="12.97"/>
+</trace>
+<times srtt="14773" rttvar="4276" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.34" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.34" rtt="15.10"/>
+</trace>
+<times srtt="18853" rttvar="14205" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.40" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="91">
+<extrareasons reason="no-response" count="91" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.40" rtt="26.02"/>
+</trace>
+<times srtt="16332" rttvar="8708" to="100000"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="62"/>
+<address addr="10.30.1.60" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="89">
+<extrareasons reason="no-response" count="89" proto="tcp" ports="7,9,13,21-23,26,37,79,81,88,106,111,113,119,135,139,144,179,199,389,427,444-445,513-515,543-544,548,554,587,631,646,873,990,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="25"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="closed" reason="reset" reason_ttl="62"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="110"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3" method="table" conf="3"/></port>
+<port protocol="tcp" portid="143"><state state="closed" reason="reset" reason_ttl="62"/><service name="imap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="465"><state state="closed" reason="reset" reason_ttl="62"/><service name="smtps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="993"><state state="closed" reason="reset" reason_ttl="62"/><service name="imaps" method="table" conf="3"/></port>
+<port protocol="tcp" portid="995"><state state="closed" reason="reset" reason_ttl="62"/><service name="pop3s" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8081"><state state="closed" reason="reset" reason_ttl="62"/><service name="blackice-icecap" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="closed" reason="reset" reason_ttl="62"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="110" proto="tcp">
+<hop ttl="1" ipaddr="172.18.1.254" rtt="22.60" host="wifi.qiet.ac.ir"/>
+<hop ttl="3" ipaddr="10.30.1.60" rtt="22.09"/>
+</trace>
+<times srtt="32302" rttvar="24291" to="129466"/>
+</host>
+<host starttime="1719832396" endtime="1719832402"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.30.1.62" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="95">
+<extrareasons reason="no-response" count="95" proto="tcp" ports="7,9,13,21-23,25-26,37,79,81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,444-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8888,9100,9999-10000,32768,49152-49157"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3128"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="squid-http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8443"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="https-alt" method="table" conf="3"/></port>
+</ports>
+<trace port="53" proto="tcp">
+<hop ttl="1" ipaddr="10.30.1.62" rtt="15.90"/>
+</trace>
+<times srtt="33671" rttvar="31359" to="159107"/>
+</host>
+<runstats><finished time="1719832407" timestr="Mon Jul  1 14:43:27 2024" summary="Nmap done at Mon Jul  1 14:43:27 2024; 256 IP addresses (22 hosts up) scanned in 17.60 seconds" elapsed="17.60" exit="success"/><hosts up="22" down="234" total="256"/>
+</runstats>
+</nmaprun>

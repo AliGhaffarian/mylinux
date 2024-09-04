@@ -1,0 +1,4 @@
+tried to spoof mac and ip to gain access to ftp server (shoot it refuses connection cuz it's in another network mos probably)
+tried to scan 172.30.1.0/24 via the spoofed mac and ip
+both unsuccessful
+

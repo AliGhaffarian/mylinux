@@ -1,0 +1,4132 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-06-10 08:49 +0330
+Initiating Ping Scan at 08:49
+Scanning 257 hosts [4 ports/host]
+Ping Scan Timing: About 15.56% done; ETC: 08:53 (0:02:48 remaining)
+Completed Ping Scan at 08:50, 38.14s elapsed (257 total hosts)
+Initiating Parallel DNS resolution of 257 hosts. at 08:50
+Completed Parallel DNS resolution of 257 hosts. at 08:50, 2.69s elapsed
+Initiating SYN Stealth Scan at 08:50
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 443/tcp on 172.30.1.2
+Discovered open port 443/tcp on 172.30.1.1
+Discovered open port 443/tcp on 172.30.1.3
+Discovered open port 443/tcp on 172.30.1.5
+Discovered open port 443/tcp on 172.30.1.4
+Discovered open port 443/tcp on 172.30.1.7
+Discovered open port 443/tcp on 172.30.1.6
+Discovered open port 443/tcp on 172.30.1.8
+Discovered open port 443/tcp on 172.30.1.9
+Discovered open port 443/tcp on 172.30.1.10
+Discovered open port 443/tcp on 172.30.1.13
+Discovered open port 443/tcp on 172.30.1.14
+Discovered open port 443/tcp on 172.30.1.15
+Discovered open port 443/tcp on 172.30.1.16
+Discovered open port 443/tcp on 172.30.1.18
+Discovered open port 443/tcp on 172.30.1.17
+Discovered open port 443/tcp on 172.30.1.19
+Discovered open port 443/tcp on 172.30.1.21
+Discovered open port 443/tcp on 172.30.1.20
+Discovered open port 443/tcp on 172.30.1.23
+Discovered open port 443/tcp on 172.30.1.22
+Discovered open port 443/tcp on 172.30.1.24
+Discovered open port 443/tcp on 172.30.1.25
+Discovered open port 443/tcp on 172.30.1.26
+Discovered open port 443/tcp on 172.30.1.27
+Discovered open port 443/tcp on 172.30.1.29
+Discovered open port 443/tcp on 172.30.1.28
+Discovered open port 443/tcp on 172.30.1.31
+Discovered open port 443/tcp on 172.30.1.30
+Discovered open port 443/tcp on 172.30.1.32
+Discovered open port 443/tcp on 172.30.1.35
+Discovered open port 443/tcp on 172.30.1.36
+Discovered open port 443/tcp on 172.30.1.37
+Discovered open port 443/tcp on 172.30.1.38
+Discovered open port 443/tcp on 172.30.1.39
+Discovered open port 443/tcp on 172.30.1.41
+Discovered open port 443/tcp on 172.30.1.40
+Discovered open port 443/tcp on 172.30.1.43
+Discovered open port 443/tcp on 172.30.1.42
+Discovered open port 443/tcp on 172.30.1.44
+Discovered open port 443/tcp on 0.0.1.44
+Discovered open port 443/tcp on 172.30.1.46
+Discovered open port 443/tcp on 172.30.1.45
+Discovered open port 443/tcp on 172.30.1.48
+Discovered open port 443/tcp on 172.30.1.47
+Discovered open port 443/tcp on 172.30.1.50
+Discovered open port 443/tcp on 172.30.1.49
+Discovered open port 443/tcp on 172.30.1.53
+Discovered open port 443/tcp on 172.30.1.51
+Discovered open port 443/tcp on 172.30.1.55
+Discovered open port 443/tcp on 172.30.1.52
+Discovered open port 443/tcp on 172.30.1.54
+Discovered open port 443/tcp on 172.30.1.58
+Discovered open port 443/tcp on 172.30.1.59
+Discovered open port 443/tcp on 172.30.1.61
+Discovered open port 443/tcp on 172.30.1.60
+Discovered open port 443/tcp on 172.30.1.62
+Discovered open port 443/tcp on 172.30.1.0
+Discovered open port 443/tcp on 172.30.1.33
+Discovered open port 443/tcp on 172.30.1.34
+Discovered open port 443/tcp on 172.30.1.57
+Discovered open port 443/tcp on 172.30.1.56
+Discovered open port 443/tcp on 172.30.1.11
+Discovered open port 443/tcp on 172.30.1.12
+Discovered open port 8080/tcp on 172.30.1.37
+Discovered open port 80/tcp on 172.30.1.37
+Discovered open port 8080/tcp on 172.30.1.36
+Discovered open port 80/tcp on 172.30.1.36
+Discovered open port 53/tcp on 172.30.1.36
+Discovered open port 53/tcp on 172.30.1.37
+Discovered open port 8080/tcp on 0.0.1.44
+Discovered open port 80/tcp on 0.0.1.44
+Discovered open port 8080/tcp on 172.30.1.2
+Discovered open port 8080/tcp on 172.30.1.1
+Discovered open port 8080/tcp on 172.30.1.3
+Discovered open port 8080/tcp on 172.30.1.55
+Discovered open port 8080/tcp on 172.30.1.58
+Discovered open port 8080/tcp on 172.30.1.59
+Discovered open port 8080/tcp on 172.30.1.61
+Discovered open port 8080/tcp on 172.30.1.60
+Discovered open port 8080/tcp on 172.30.1.56
+Discovered open port 8080/tcp on 172.30.1.57
+Discovered open port 80/tcp on 172.30.1.1
+Discovered open port 8080/tcp on 172.30.1.62
+Discovered open port 80/tcp on 172.30.1.3
+Discovered open port 8080/tcp on 172.30.1.0
+Discovered open port 80/tcp on 172.30.1.2
+Discovered open port 8080/tcp on 172.30.1.51
+Discovered open port 80/tcp on 172.30.1.55
+Discovered open port 80/tcp on 172.30.1.58
+Discovered open port 80/tcp on 172.30.1.59
+Discovered open port 80/tcp on 172.30.1.60
+Discovered open port 80/tcp on 172.30.1.61
+Discovered open port 8080/tcp on 172.30.1.6
+Discovered open port 8080/tcp on 172.30.1.9
+Discovered open port 8080/tcp on 172.30.1.19
+Discovered open port 8080/tcp on 172.30.1.16
+Discovered open port 8080/tcp on 172.30.1.20
+Discovered open port 8080/tcp on 172.30.1.21
+Discovered open port 8080/tcp on 172.30.1.22
+Discovered open port 8080/tcp on 172.30.1.23
+Discovered open port 8080/tcp on 172.30.1.39
+Discovered open port 8080/tcp on 172.30.1.42
+Discovered open port 8080/tcp on 172.30.1.38
+Discovered open port 8080/tcp on 172.30.1.43
+Discovered open port 8080/tcp on 172.30.1.46
+Discovered open port 8080/tcp on 172.30.1.52
+Discovered open port 8080/tcp on 172.30.1.50
+Discovered open port 80/tcp on 172.30.1.56
+Discovered open port 80/tcp on 172.30.1.57
+Discovered open port 80/tcp on 172.30.1.62
+Discovered open port 8080/tcp on 172.30.1.4
+Discovered open port 8080/tcp on 172.30.1.5
+Discovered open port 8080/tcp on 172.30.1.7
+Discovered open port 8080/tcp on 172.30.1.8
+Discovered open port 8080/tcp on 172.30.1.10
+Discovered open port 8080/tcp on 172.30.1.13
+Discovered open port 8080/tcp on 172.30.1.25
+Discovered open port 8080/tcp on 172.30.1.24
+Discovered open port 8080/tcp on 172.30.1.26
+Discovered open port 8080/tcp on 172.30.1.30
+Discovered open port 8080/tcp on 172.30.1.31
+Discovered open port 8080/tcp on 172.30.1.32
+Discovered open port 8080/tcp on 172.30.1.35
+Discovered open port 8080/tcp on 172.30.1.40
+Discovered open port 8080/tcp on 172.30.1.41
+Discovered open port 8080/tcp on 172.30.1.44
+Discovered open port 8080/tcp on 172.30.1.45
+Discovered open port 8080/tcp on 172.30.1.48
+Discovered open port 8080/tcp on 172.30.1.47
+Discovered open port 80/tcp on 172.30.1.51
+Discovered open port 8080/tcp on 172.30.1.53
+Discovered open port 8080/tcp on 172.30.1.54
+Discovered open port 80/tcp on 172.30.1.0
+Discovered open port 80/tcp on 172.30.1.6
+Discovered open port 80/tcp on 172.30.1.9
+Discovered open port 8080/tcp on 172.30.1.12
+Discovered open port 8080/tcp on 172.30.1.15
+Discovered open port 8080/tcp on 172.30.1.18
+Discovered open port 80/tcp on 172.30.1.21
+Discovered open port 80/tcp on 172.30.1.22
+Discovered open port 80/tcp on 172.30.1.23
+Discovered open port 8080/tcp on 172.30.1.27
+Discovered open port 8080/tcp on 172.30.1.28
+Discovered open port 8080/tcp on 172.30.1.33
+Discovered open port 80/tcp on 172.30.1.38
+Discovered open port 8080/tcp on 172.30.1.34
+Discovered open port 80/tcp on 172.30.1.39
+Discovered open port 80/tcp on 172.30.1.46
+Discovered open port 8080/tcp on 172.30.1.49
+Discovered open port 80/tcp on 172.30.1.52
+Discovered open port 80/tcp on 172.30.1.5
+Discovered open port 80/tcp on 172.30.1.7
+Discovered open port 80/tcp on 172.30.1.8
+Discovered open port 80/tcp on 172.30.1.13
+Discovered open port 8080/tcp on 172.30.1.14
+Discovered open port 80/tcp on 172.30.1.19
+Discovered open port 80/tcp on 172.30.1.16
+Discovered open port 80/tcp on 172.30.1.24
+Discovered open port 80/tcp on 172.30.1.26
+Discovered open port 80/tcp on 172.30.1.25
+Discovered open port 80/tcp on 172.30.1.29
+Discovered open port 80/tcp on 172.30.1.30
+Discovered open port 80/tcp on 172.30.1.35
+Discovered open port 80/tcp on 172.30.1.32
+Discovered open port 80/tcp on 172.30.1.41
+Discovered open port 80/tcp on 172.30.1.40
+Discovered open port 80/tcp on 172.30.1.43
+Discovered open port 80/tcp on 172.30.1.42
+Discovered open port 80/tcp on 172.30.1.45
+Discovered open port 80/tcp on 172.30.1.48
+Discovered open port 80/tcp on 172.30.1.47
+Discovered open port 80/tcp on 172.30.1.50
+Discovered open port 80/tcp on 172.30.1.53
+Discovered open port 80/tcp on 172.30.1.54
+Discovered open port 80/tcp on 172.30.1.4
+Discovered open port 8080/tcp on 172.30.1.11
+Discovered open port 80/tcp on 172.30.1.12
+Discovered open port 80/tcp on 172.30.1.17
+Discovered open port 80/tcp on 172.30.1.18
+Discovered open port 80/tcp on 172.30.1.27
+Discovered open port 80/tcp on 172.30.1.28
+Discovered open port 80/tcp on 172.30.1.33
+Discovered open port 53/tcp on 0.0.1.44
+Discovered open port 80/tcp on 172.30.1.44
+Discovered open port 8080/tcp on 172.30.1.29
+Discovered open port 8080/tcp on 172.30.1.17
+Discovered open port 80/tcp on 172.30.1.20
+Discovered open port 80/tcp on 172.30.1.31
+Discovered open port 80/tcp on 172.30.1.15
+Discovered open port 80/tcp on 172.30.1.34
+Discovered open port 80/tcp on 172.30.1.49
+Discovered open port 80/tcp on 172.30.1.10
+Discovered open port 80/tcp on 172.30.1.14
+Discovered open port 80/tcp on 172.30.1.11
+Discovered open port 53/tcp on 172.30.1.60
+Discovered open port 53/tcp on 172.30.1.1
+Discovered open port 53/tcp on 172.30.1.55
+Discovered open port 53/tcp on 172.30.1.61
+Discovered open port 53/tcp on 172.30.1.56
+Discovered open port 53/tcp on 172.30.1.57
+Discovered open port 53/tcp on 172.30.1.58
+Discovered open port 53/tcp on 172.30.1.59
+Discovered open port 53/tcp on 172.30.1.6
+Discovered open port 53/tcp on 172.30.1.20
+Discovered open port 53/tcp on 172.30.1.62
+Discovered open port 53/tcp on 172.30.1.0
+Discovered open port 53/tcp on 172.30.1.7
+Discovered open port 53/tcp on 172.30.1.21
+Discovered open port 53/tcp on 172.30.1.39
+Discovered open port 53/tcp on 172.30.1.51
+Discovered open port 53/tcp on 172.30.1.52
+Discovered open port 53/tcp on 172.30.1.3
+Discovered open port 53/tcp on 172.30.1.8
+Discovered open port 53/tcp on 172.30.1.16
+Discovered open port 53/tcp on 172.30.1.22
+Discovered open port 53/tcp on 172.30.1.35
+Discovered open port 53/tcp on 172.30.1.40
+Discovered open port 53/tcp on 172.30.1.41
+Discovered open port 53/tcp on 172.30.1.42
+Discovered open port 53/tcp on 172.30.1.44
+Discovered open port 53/tcp on 172.30.1.46
+Discovered open port 53/tcp on 172.30.1.2
+Discovered open port 53/tcp on 172.30.1.45
+Discovered open port 53/tcp on 172.30.1.17
+Discovered open port 53/tcp on 172.30.1.19
+Discovered open port 53/tcp on 172.30.1.23
+Discovered open port 53/tcp on 172.30.1.24
+Discovered open port 53/tcp on 172.30.1.34
+Discovered open port 53/tcp on 172.30.1.43
+Discovered open port 53/tcp on 172.30.1.49
+Discovered open port 53/tcp on 172.30.1.5
+Discovered open port 53/tcp on 172.30.1.13
+Discovered open port 53/tcp on 172.30.1.15
+Discovered open port 53/tcp on 172.30.1.28
+Discovered open port 53/tcp on 172.30.1.31
+Discovered open port 53/tcp on 172.30.1.32
+Discovered open port 53/tcp on 172.30.1.38
+Discovered open port 53/tcp on 172.30.1.53
+Discovered open port 53/tcp on 172.30.1.54
+Discovered open port 53/tcp on 172.30.1.4
+Discovered open port 53/tcp on 172.30.1.12
+Discovered open port 53/tcp on 172.30.1.18
+Discovered open port 53/tcp on 172.30.1.25
+Discovered open port 53/tcp on 172.30.1.50
+Discovered open port 53/tcp on 172.30.1.9
+Discovered open port 53/tcp on 172.30.1.10
+Discovered open port 53/tcp on 172.30.1.14
+Discovered open port 53/tcp on 172.30.1.27
+Discovered open port 53/tcp on 172.30.1.33
+Discovered open port 53/tcp on 172.30.1.11
+Discovered open port 53/tcp on 172.30.1.26
+Discovered open port 53/tcp on 172.30.1.29
+Discovered open port 53/tcp on 172.30.1.47
+Discovered open port 53/tcp on 172.30.1.48
+Discovered open port 53/tcp on 172.30.1.30
+Discovered open port 3128/tcp on 172.30.1.36
+Discovered open port 3128/tcp on 172.30.1.37
+Completed SYN Stealth Scan against 172.30.1.36 in 11.98s (63 hosts left)
+Completed SYN Stealth Scan against 172.30.1.37 in 12.02s (62 hosts left)
+Discovered open port 3128/tcp on 172.30.1.23
+Discovered open port 3128/tcp on 172.30.1.44
+Discovered open port 3128/tcp on 172.30.1.12
+Discovered open port 3128/tcp on 172.30.1.24
+Discovered open port 3128/tcp on 172.30.1.10
+Discovered open port 3128/tcp on 172.30.1.13
+Discovered open port 3128/tcp on 172.30.1.57
+Discovered open port 3128/tcp on 172.30.1.7
+Discovered open port 3128/tcp on 172.30.1.17
+Discovered open port 3128/tcp on 172.30.1.62
+Discovered open port 3128/tcp on 172.30.1.22
+Discovered open port 3128/tcp on 172.30.1.2
+Discovered open port 3128/tcp on 172.30.1.11
+Discovered open port 3128/tcp on 172.30.1.25
+Discovered open port 3128/tcp on 172.30.1.34
+Discovered open port 3128/tcp on 172.30.1.45
+Discovered open port 3128/tcp on 172.30.1.16
+Discovered open port 3128/tcp on 172.30.1.42
+Discovered open port 3128/tcp on 172.30.1.1
+Discovered open port 3128/tcp on 172.30.1.6
+Discovered open port 3128/tcp on 172.30.1.33
+Discovered open port 3128/tcp on 172.30.1.20
+Discovered open port 3128/tcp on 172.30.1.35
+Discovered open port 3128/tcp on 172.30.1.40
+Discovered open port 3128/tcp on 172.30.1.58
+Discovered open port 3128/tcp on 172.30.1.61
+Discovered open port 3128/tcp on 172.30.1.49
+Discovered open port 3128/tcp on 172.30.1.3
+Discovered open port 3128/tcp on 172.30.1.5
+Discovered open port 3128/tcp on 172.30.1.60
+Discovered open port 3128/tcp on 172.30.1.0
+Discovered open port 3128/tcp on 172.30.1.43
+Discovered open port 3128/tcp on 172.30.1.4
+Discovered open port 3128/tcp on 172.30.1.28
+Discovered open port 3128/tcp on 172.30.1.46
+Discovered open port 3128/tcp on 172.30.1.26
+Discovered open port 3128/tcp on 172.30.1.32
+Discovered open port 3128/tcp on 172.30.1.41
+Discovered open port 3128/tcp on 172.30.1.48
+Discovered open port 3128/tcp on 172.30.1.21
+Discovered open port 3128/tcp on 172.30.1.29
+Discovered open port 3128/tcp on 172.30.1.54
+Discovered open port 3128/tcp on 172.30.1.56
+Discovered open port 3128/tcp on 172.30.1.9
+Discovered open port 3128/tcp on 172.30.1.8
+Discovered open port 3128/tcp on 172.30.1.14
+Discovered open port 3128/tcp on 172.30.1.39
+Discovered open port 3128/tcp on 172.30.1.50
+Discovered open port 3128/tcp on 172.30.1.59
+Discovered open port 3128/tcp on 172.30.1.47
+Discovered open port 3128/tcp on 172.30.1.53
+Discovered open port 3128/tcp on 172.30.1.51
+Discovered open port 3128/tcp on 172.30.1.15
+Discovered open port 3128/tcp on 172.30.1.27
+Discovered open port 3128/tcp on 172.30.1.38
+Discovered open port 3128/tcp on 172.30.1.30
+Discovered open port 3128/tcp on 172.30.1.31
+Discovered open port 3128/tcp on 172.30.1.19
+Discovered open port 3128/tcp on 0.0.1.44
+Discovered open port 3128/tcp on 172.30.1.52
+Discovered open port 3128/tcp on 172.30.1.55
+Discovered open port 3128/tcp on 172.30.1.18
+Completed SYN Stealth Scan against 172.30.1.23 in 12.65s (61 hosts left)
+Completed SYN Stealth Scan against 172.30.1.12 in 12.69s (60 hosts left)
+Completed SYN Stealth Scan against 172.30.1.24 in 12.69s (59 hosts left)
+Completed SYN Stealth Scan against 172.30.1.13 in 12.72s (58 hosts left)
+Completed SYN Stealth Scan against 172.30.1.44 in 12.72s (57 hosts left)
+Completed SYN Stealth Scan against 172.30.1.57 in 12.74s (56 hosts left)
+Completed SYN Stealth Scan against 172.30.1.2 in 12.75s (55 hosts left)
+Completed SYN Stealth Scan against 172.30.1.7 in 12.75s (54 hosts left)
+Completed SYN Stealth Scan against 172.30.1.10 in 12.75s (53 hosts left)
+Completed SYN Stealth Scan against 172.30.1.11 in 12.75s (52 hosts left)
+Completed SYN Stealth Scan against 172.30.1.22 in 12.75s (51 hosts left)
+Completed SYN Stealth Scan against 172.30.1.25 in 12.75s (50 hosts left)
+Completed SYN Stealth Scan against 172.30.1.1 in 12.77s (49 hosts left)
+Completed SYN Stealth Scan against 172.30.1.17 in 12.77s (48 hosts left)
+Completed SYN Stealth Scan against 172.30.1.20 in 12.77s (47 hosts left)
+Completed SYN Stealth Scan against 172.30.1.33 in 12.77s (46 hosts left)
+Completed SYN Stealth Scan against 172.30.1.34 in 12.77s (45 hosts left)
+Completed SYN Stealth Scan against 172.30.1.35 in 12.77s (44 hosts left)
+Completed SYN Stealth Scan against 172.30.1.42 in 12.77s (43 hosts left)
+Completed SYN Stealth Scan against 172.30.1.45 in 12.77s (42 hosts left)
+Completed SYN Stealth Scan against 172.30.1.62 in 12.77s (41 hosts left)
+Completed SYN Stealth Scan against 172.30.1.3 in 12.78s (40 hosts left)
+Completed SYN Stealth Scan against 172.30.1.6 in 12.78s (39 hosts left)
+Completed SYN Stealth Scan against 172.30.1.0 in 12.79s (38 hosts left)
+Completed SYN Stealth Scan against 172.30.1.4 in 12.79s (37 hosts left)
+Completed SYN Stealth Scan against 172.30.1.5 in 12.79s (36 hosts left)
+Completed SYN Stealth Scan against 172.30.1.8 in 12.79s (35 hosts left)
+Completed SYN Stealth Scan against 172.30.1.14 in 12.79s (34 hosts left)
+Completed SYN Stealth Scan against 172.30.1.16 in 12.79s (33 hosts left)
+Completed SYN Stealth Scan against 172.30.1.21 in 12.79s (32 hosts left)
+Completed SYN Stealth Scan against 172.30.1.26 in 12.79s (31 hosts left)
+Completed SYN Stealth Scan against 172.30.1.28 in 12.79s (30 hosts left)
+Completed SYN Stealth Scan against 172.30.1.29 in 12.79s (29 hosts left)
+Completed SYN Stealth Scan against 172.30.1.40 in 12.79s (28 hosts left)
+Completed SYN Stealth Scan against 172.30.1.43 in 12.79s (27 hosts left)
+Completed SYN Stealth Scan against 172.30.1.46 in 12.79s (26 hosts left)
+Completed SYN Stealth Scan against 172.30.1.49 in 12.79s (25 hosts left)
+Completed SYN Stealth Scan against 172.30.1.54 in 12.79s (24 hosts left)
+Completed SYN Stealth Scan against 172.30.1.56 in 12.79s (23 hosts left)
+Completed SYN Stealth Scan against 172.30.1.58 in 12.79s (22 hosts left)
+Completed SYN Stealth Scan against 172.30.1.15 in 12.80s (21 hosts left)
+Completed SYN Stealth Scan against 172.30.1.32 in 12.80s (20 hosts left)
+Completed SYN Stealth Scan against 172.30.1.39 in 12.80s (19 hosts left)
+Completed SYN Stealth Scan against 172.30.1.41 in 12.80s (18 hosts left)
+Completed SYN Stealth Scan against 172.30.1.53 in 12.80s (17 hosts left)
+Completed SYN Stealth Scan against 172.30.1.60 in 12.80s (16 hosts left)
+Completed SYN Stealth Scan against 172.30.1.9 in 12.81s (15 hosts left)
+Completed SYN Stealth Scan against 172.30.1.18 in 12.81s (14 hosts left)
+Completed SYN Stealth Scan against 172.30.1.19 in 12.81s (13 hosts left)
+Completed SYN Stealth Scan against 172.30.1.27 in 12.81s (12 hosts left)
+Completed SYN Stealth Scan against 172.30.1.30 in 12.81s (11 hosts left)
+Completed SYN Stealth Scan against 172.30.1.31 in 12.81s (10 hosts left)
+Completed SYN Stealth Scan against 172.30.1.38 in 12.81s (9 hosts left)
+Completed SYN Stealth Scan against 172.30.1.47 in 12.81s (8 hosts left)
+Completed SYN Stealth Scan against 172.30.1.48 in 12.81s (7 hosts left)
+Completed SYN Stealth Scan against 172.30.1.50 in 12.81s (6 hosts left)
+Completed SYN Stealth Scan against 172.30.1.51 in 12.81s (5 hosts left)
+Completed SYN Stealth Scan against 172.30.1.52 in 12.81s (4 hosts left)
+Completed SYN Stealth Scan against 172.30.1.55 in 12.81s (3 hosts left)
+Completed SYN Stealth Scan against 172.30.1.59 in 12.81s (2 hosts left)
+Completed SYN Stealth Scan against 172.30.1.61 in 12.81s (1 host left)
+Completed SYN Stealth Scan at 08:50, 13.00s elapsed (64000 total ports)
+Nmap scan report for 300 (0.0.1.44)
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.0
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.1
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.2
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.3
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.4
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.5
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.6
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.7
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.8
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.9
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.10
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.11
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.12
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.13
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.14
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.15
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.16
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.17
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.18
+Host is up, received syn-ack ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.19
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.20
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.21
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.22
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.23
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.24
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.25
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.26
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.27
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.28
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.29
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.30
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.31
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.32
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.33
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.34
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.35
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.36
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.37
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.38
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.39
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.40
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.41
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.42
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.43
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.44
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.45
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.46
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.47
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.48
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.49
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.50
+Host is up, received syn-ack ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.51
+Host is up, received syn-ack ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.52
+Host is up, received syn-ack ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.53
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.54
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.55
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.56
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.57
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.58
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.59
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.60
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.61
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.62
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Initiating SYN Stealth Scan at 08:50
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 443/tcp on 172.30.1.65
+Discovered open port 443/tcp on 172.30.1.67
+Discovered open port 443/tcp on 172.30.1.68
+Discovered open port 443/tcp on 172.30.1.64
+Discovered open port 443/tcp on 172.30.1.66
+Discovered open port 443/tcp on 172.30.1.70
+Discovered open port 443/tcp on 172.30.1.69
+Discovered open port 443/tcp on 172.30.1.71
+Discovered open port 443/tcp on 172.30.1.73
+Discovered open port 443/tcp on 172.30.1.72
+Discovered open port 443/tcp on 172.30.1.76
+Discovered open port 443/tcp on 172.30.1.77
+Discovered open port 443/tcp on 172.30.1.78
+Discovered open port 443/tcp on 172.30.1.79
+Discovered open port 443/tcp on 172.30.1.80
+Discovered open port 443/tcp on 172.30.1.81
+Discovered open port 443/tcp on 172.30.1.82
+Discovered open port 443/tcp on 172.30.1.83
+Discovered open port 443/tcp on 172.30.1.85
+Discovered open port 443/tcp on 172.30.1.84
+Discovered open port 443/tcp on 172.30.1.87
+Discovered open port 443/tcp on 172.30.1.86
+Discovered open port 443/tcp on 172.30.1.88
+Discovered open port 443/tcp on 172.30.1.89
+Discovered open port 443/tcp on 172.30.1.90
+Discovered open port 443/tcp on 172.30.1.91
+Discovered open port 443/tcp on 172.30.1.93
+Discovered open port 443/tcp on 172.30.1.92
+Discovered open port 443/tcp on 172.30.1.95
+Discovered open port 443/tcp on 172.30.1.94
+Discovered open port 443/tcp on 172.30.1.99
+Discovered open port 443/tcp on 172.30.1.98
+Discovered open port 443/tcp on 172.30.1.100
+Discovered open port 443/tcp on 172.30.1.101
+Discovered open port 443/tcp on 172.30.1.102
+Discovered open port 443/tcp on 172.30.1.103
+Discovered open port 443/tcp on 172.30.1.105
+Discovered open port 443/tcp on 172.30.1.104
+Discovered open port 443/tcp on 172.30.1.107
+Discovered open port 443/tcp on 172.30.1.106
+Discovered open port 443/tcp on 172.30.1.108
+Discovered open port 443/tcp on 172.30.1.109
+Discovered open port 443/tcp on 172.30.1.110
+Discovered open port 443/tcp on 172.30.1.111
+Discovered open port 443/tcp on 172.30.1.112
+Discovered open port 443/tcp on 172.30.1.113
+Discovered open port 443/tcp on 172.30.1.114
+Discovered open port 443/tcp on 172.30.1.115
+Discovered open port 443/tcp on 172.30.1.117
+Discovered open port 443/tcp on 172.30.1.116
+Discovered open port 443/tcp on 172.30.1.119
+Discovered open port 443/tcp on 172.30.1.118
+Discovered open port 443/tcp on 172.30.1.122
+Discovered open port 443/tcp on 172.30.1.123
+Discovered open port 443/tcp on 172.30.1.125
+Discovered open port 443/tcp on 172.30.1.124
+Discovered open port 443/tcp on 172.30.1.126
+Discovered open port 443/tcp on 172.30.1.63
+Discovered open port 443/tcp on 172.30.1.96
+Discovered open port 443/tcp on 172.30.1.97
+Discovered open port 443/tcp on 172.30.1.121
+Discovered open port 443/tcp on 172.30.1.120
+Discovered open port 443/tcp on 172.30.1.75
+Discovered open port 443/tcp on 172.30.1.74
+Discovered open port 8080/tcp on 172.30.1.65
+Discovered open port 8080/tcp on 172.30.1.70
+Discovered open port 8080/tcp on 172.30.1.71
+Discovered open port 8080/tcp on 172.30.1.73
+Discovered open port 8080/tcp on 172.30.1.72
+Discovered open port 8080/tcp on 172.30.1.77
+Discovered open port 8080/tcp on 172.30.1.78
+Discovered open port 8080/tcp on 172.30.1.79
+Discovered open port 8080/tcp on 172.30.1.82
+Discovered open port 8080/tcp on 172.30.1.83
+Discovered open port 8080/tcp on 172.30.1.84
+Discovered open port 8080/tcp on 172.30.1.85
+Discovered open port 8080/tcp on 172.30.1.86
+Discovered open port 8080/tcp on 172.30.1.89
+Discovered open port 8080/tcp on 172.30.1.90
+Discovered open port 8080/tcp on 172.30.1.91
+Discovered open port 8080/tcp on 172.30.1.93
+Discovered open port 8080/tcp on 172.30.1.92
+Discovered open port 8080/tcp on 172.30.1.95
+Discovered open port 8080/tcp on 172.30.1.94
+Discovered open port 8080/tcp on 172.30.1.99
+Discovered open port 8080/tcp on 172.30.1.98
+Discovered open port 8080/tcp on 172.30.1.100
+Discovered open port 8080/tcp on 172.30.1.101
+Discovered open port 8080/tcp on 172.30.1.102
+Discovered open port 8080/tcp on 172.30.1.103
+Discovered open port 8080/tcp on 172.30.1.104
+Discovered open port 8080/tcp on 172.30.1.110
+Discovered open port 8080/tcp on 172.30.1.111
+Discovered open port 8080/tcp on 172.30.1.112
+Discovered open port 8080/tcp on 172.30.1.113
+Discovered open port 8080/tcp on 172.30.1.114
+Discovered open port 8080/tcp on 172.30.1.122
+Discovered open port 8080/tcp on 172.30.1.123
+Discovered open port 8080/tcp on 172.30.1.125
+Discovered open port 8080/tcp on 172.30.1.124
+Discovered open port 8080/tcp on 172.30.1.126
+Discovered open port 8080/tcp on 172.30.1.67
+Discovered open port 8080/tcp on 172.30.1.68
+Discovered open port 8080/tcp on 172.30.1.64
+Discovered open port 8080/tcp on 172.30.1.66
+Discovered open port 8080/tcp on 172.30.1.69
+Discovered open port 8080/tcp on 172.30.1.76
+Discovered open port 8080/tcp on 172.30.1.80
+Discovered open port 8080/tcp on 172.30.1.81
+Discovered open port 8080/tcp on 172.30.1.87
+Discovered open port 8080/tcp on 172.30.1.88
+Discovered open port 8080/tcp on 172.30.1.96
+Discovered open port 8080/tcp on 172.30.1.97
+Discovered open port 8080/tcp on 172.30.1.105
+Discovered open port 8080/tcp on 172.30.1.107
+Discovered open port 8080/tcp on 172.30.1.108
+Discovered open port 8080/tcp on 172.30.1.109
+Discovered open port 8080/tcp on 172.30.1.115
+Discovered open port 8080/tcp on 172.30.1.117
+Discovered open port 8080/tcp on 172.30.1.119
+Discovered open port 8080/tcp on 172.30.1.116
+Discovered open port 8080/tcp on 172.30.1.120
+Discovered open port 8080/tcp on 172.30.1.121
+Discovered open port 80/tcp on 172.30.1.65
+Discovered open port 8080/tcp on 172.30.1.63
+Discovered open port 80/tcp on 172.30.1.70
+Discovered open port 80/tcp on 172.30.1.71
+Discovered open port 80/tcp on 172.30.1.78
+Discovered open port 80/tcp on 172.30.1.72
+Discovered open port 80/tcp on 172.30.1.82
+Discovered open port 80/tcp on 172.30.1.77
+Discovered open port 80/tcp on 172.30.1.79
+Discovered open port 80/tcp on 172.30.1.85
+Discovered open port 80/tcp on 172.30.1.83
+Discovered open port 80/tcp on 172.30.1.90
+Discovered open port 80/tcp on 172.30.1.84
+Discovered open port 80/tcp on 172.30.1.86
+Discovered open port 80/tcp on 172.30.1.89
+Discovered open port 80/tcp on 172.30.1.91
+Discovered open port 80/tcp on 172.30.1.94
+Discovered open port 80/tcp on 172.30.1.95
+Discovered open port 80/tcp on 172.30.1.98
+Discovered open port 80/tcp on 172.30.1.99
+Discovered open port 80/tcp on 172.30.1.101
+Discovered open port 80/tcp on 172.30.1.100
+Discovered open port 80/tcp on 172.30.1.103
+Discovered open port 80/tcp on 172.30.1.102
+Discovered open port 80/tcp on 172.30.1.104
+Discovered open port 8080/tcp on 172.30.1.106
+Discovered open port 80/tcp on 172.30.1.110
+Discovered open port 80/tcp on 172.30.1.111
+Discovered open port 80/tcp on 172.30.1.112
+Discovered open port 80/tcp on 172.30.1.113
+Discovered open port 80/tcp on 172.30.1.114
+Discovered open port 8080/tcp on 172.30.1.118
+Discovered open port 80/tcp on 172.30.1.122
+Discovered open port 80/tcp on 172.30.1.123
+Discovered open port 80/tcp on 172.30.1.124
+Discovered open port 80/tcp on 172.30.1.67
+Discovered open port 80/tcp on 172.30.1.68
+Discovered open port 80/tcp on 172.30.1.66
+Discovered open port 80/tcp on 172.30.1.64
+Discovered open port 80/tcp on 172.30.1.73
+Discovered open port 80/tcp on 172.30.1.69
+Discovered open port 8080/tcp on 172.30.1.74
+Discovered open port 80/tcp on 172.30.1.80
+Discovered open port 80/tcp on 172.30.1.81
+Discovered open port 80/tcp on 172.30.1.87
+Discovered open port 80/tcp on 172.30.1.88
+Discovered open port 80/tcp on 172.30.1.92
+Discovered open port 80/tcp on 172.30.1.93
+Discovered open port 80/tcp on 172.30.1.96
+Discovered open port 80/tcp on 172.30.1.97
+Discovered open port 80/tcp on 172.30.1.105
+Discovered open port 80/tcp on 172.30.1.107
+Discovered open port 80/tcp on 172.30.1.109
+Discovered open port 80/tcp on 172.30.1.108
+Discovered open port 80/tcp on 172.30.1.115
+Discovered open port 80/tcp on 172.30.1.116
+Discovered open port 80/tcp on 172.30.1.117
+Discovered open port 80/tcp on 172.30.1.121
+Discovered open port 80/tcp on 172.30.1.119
+Discovered open port 80/tcp on 172.30.1.120
+Discovered open port 80/tcp on 172.30.1.126
+Discovered open port 80/tcp on 172.30.1.125
+Discovered open port 8080/tcp on 172.30.1.75
+Discovered open port 80/tcp on 172.30.1.76
+Discovered open port 80/tcp on 172.30.1.106
+Discovered open port 80/tcp on 172.30.1.118
+Discovered open port 80/tcp on 172.30.1.63
+Discovered open port 80/tcp on 172.30.1.74
+Discovered open port 80/tcp on 172.30.1.75
+Discovered open port 53/tcp on 172.30.1.70
+Discovered open port 53/tcp on 172.30.1.77
+Discovered open port 53/tcp on 172.30.1.78
+Discovered open port 53/tcp on 172.30.1.83
+Discovered open port 53/tcp on 172.30.1.82
+Discovered open port 53/tcp on 172.30.1.89
+Discovered open port 53/tcp on 172.30.1.85
+Discovered open port 53/tcp on 172.30.1.90
+Discovered open port 53/tcp on 172.30.1.95
+Discovered open port 53/tcp on 172.30.1.94
+Discovered open port 53/tcp on 172.30.1.100
+Discovered open port 53/tcp on 172.30.1.101
+Discovered open port 53/tcp on 172.30.1.102
+Discovered open port 53/tcp on 172.30.1.113
+Discovered open port 53/tcp on 172.30.1.112
+Discovered open port 53/tcp on 172.30.1.114
+Discovered open port 53/tcp on 172.30.1.65
+Discovered open port 53/tcp on 172.30.1.66
+Discovered open port 53/tcp on 172.30.1.69
+Discovered open port 53/tcp on 172.30.1.71
+Discovered open port 53/tcp on 172.30.1.73
+Discovered open port 53/tcp on 172.30.1.72
+Discovered open port 53/tcp on 172.30.1.79
+Discovered open port 53/tcp on 172.30.1.81
+Discovered open port 53/tcp on 172.30.1.86
+Discovered open port 53/tcp on 172.30.1.88
+Discovered open port 53/tcp on 172.30.1.91
+Discovered open port 53/tcp on 172.30.1.93
+Discovered open port 53/tcp on 172.30.1.96
+Discovered open port 53/tcp on 172.30.1.103
+Discovered open port 53/tcp on 172.30.1.105
+Discovered open port 53/tcp on 172.30.1.104
+Discovered open port 53/tcp on 172.30.1.92
+Discovered open port 53/tcp on 172.30.1.97
+Discovered open port 53/tcp on 172.30.1.99
+Discovered open port 53/tcp on 172.30.1.106
+Discovered open port 53/tcp on 172.30.1.111
+Discovered open port 53/tcp on 172.30.1.117
+Discovered open port 53/tcp on 172.30.1.116
+Discovered open port 53/tcp on 172.30.1.118
+Discovered open port 53/tcp on 172.30.1.123
+Discovered open port 53/tcp on 172.30.1.124
+Discovered open port 53/tcp on 172.30.1.63
+Discovered open port 53/tcp on 172.30.1.64
+Discovered open port 53/tcp on 172.30.1.87
+Discovered open port 53/tcp on 172.30.1.98
+Discovered open port 53/tcp on 172.30.1.74
+Discovered open port 53/tcp on 172.30.1.75
+Discovered open port 53/tcp on 172.30.1.84
+Discovered open port 53/tcp on 172.30.1.122
+Discovered open port 53/tcp on 172.30.1.107
+Discovered open port 53/tcp on 172.30.1.109
+Discovered open port 53/tcp on 172.30.1.108
+Discovered open port 53/tcp on 172.30.1.110
+Discovered open port 53/tcp on 172.30.1.67
+Discovered open port 53/tcp on 172.30.1.115
+Discovered open port 53/tcp on 172.30.1.68
+Discovered open port 53/tcp on 172.30.1.76
+Discovered open port 53/tcp on 172.30.1.80
+Discovered open port 53/tcp on 172.30.1.119
+Discovered open port 53/tcp on 172.30.1.120
+Discovered open port 53/tcp on 172.30.1.121
+Discovered open port 53/tcp on 172.30.1.125
+Discovered open port 53/tcp on 172.30.1.126
+Discovered open port 3128/tcp on 172.30.1.85
+Discovered open port 3128/tcp on 172.30.1.73
+Discovered open port 3128/tcp on 172.30.1.116
+Discovered open port 3128/tcp on 172.30.1.79
+Discovered open port 3128/tcp on 172.30.1.101
+Discovered open port 3128/tcp on 172.30.1.111
+Discovered open port 3128/tcp on 172.30.1.78
+Discovered open port 3128/tcp on 172.30.1.87
+Discovered open port 3128/tcp on 172.30.1.69
+Discovered open port 3128/tcp on 172.30.1.94
+Discovered open port 3128/tcp on 172.30.1.123
+Discovered open port 3128/tcp on 172.30.1.117
+Discovered open port 3128/tcp on 172.30.1.70
+Discovered open port 3128/tcp on 172.30.1.91
+Discovered open port 3128/tcp on 172.30.1.98
+Discovered open port 3128/tcp on 172.30.1.63
+Discovered open port 3128/tcp on 172.30.1.96
+Discovered open port 3128/tcp on 172.30.1.75
+Discovered open port 3128/tcp on 172.30.1.92
+Discovered open port 3128/tcp on 172.30.1.82
+Discovered open port 3128/tcp on 172.30.1.64
+Discovered open port 3128/tcp on 172.30.1.66
+Discovered open port 3128/tcp on 172.30.1.104
+Discovered open port 3128/tcp on 172.30.1.103
+Discovered open port 3128/tcp on 172.30.1.106
+Discovered open port 3128/tcp on 172.30.1.124
+Discovered open port 3128/tcp on 172.30.1.65
+Discovered open port 3128/tcp on 172.30.1.105
+Discovered open port 3128/tcp on 172.30.1.113
+Discovered open port 3128/tcp on 172.30.1.114
+Completed SYN Stealth Scan against 172.30.1.85 in 7.14s (63 hosts left)
+Completed SYN Stealth Scan against 172.30.1.73 in 7.17s (62 hosts left)
+Completed SYN Stealth Scan against 172.30.1.79 in 7.17s (61 hosts left)
+Completed SYN Stealth Scan against 172.30.1.111 in 7.17s (60 hosts left)
+Completed SYN Stealth Scan against 172.30.1.101 in 7.18s (59 hosts left)
+Completed SYN Stealth Scan against 172.30.1.69 in 7.19s (58 hosts left)
+Completed SYN Stealth Scan against 172.30.1.78 in 7.19s (57 hosts left)
+Completed SYN Stealth Scan against 172.30.1.116 in 7.19s (56 hosts left)
+Completed SYN Stealth Scan against 172.30.1.123 in 7.19s (55 hosts left)
+Completed SYN Stealth Scan against 172.30.1.70 in 7.21s (54 hosts left)
+Completed SYN Stealth Scan against 172.30.1.63 in 7.22s (53 hosts left)
+Completed SYN Stealth Scan against 172.30.1.87 in 7.22s (52 hosts left)
+Completed SYN Stealth Scan against 172.30.1.75 in 7.23s (51 hosts left)
+Completed SYN Stealth Scan against 172.30.1.91 in 7.23s (50 hosts left)
+Completed SYN Stealth Scan against 172.30.1.98 in 7.25s (49 hosts left)
+Completed SYN Stealth Scan against 172.30.1.94 in 7.25s (48 hosts left)
+Completed SYN Stealth Scan against 172.30.1.82 in 7.26s (47 hosts left)
+Completed SYN Stealth Scan against 172.30.1.96 in 7.26s (46 hosts left)
+Completed SYN Stealth Scan against 172.30.1.92 in 7.28s (45 hosts left)
+Completed SYN Stealth Scan against 172.30.1.117 in 7.28s (44 hosts left)
+Completed SYN Stealth Scan against 172.30.1.103 in 7.29s (43 hosts left)
+Completed SYN Stealth Scan against 172.30.1.124 in 7.29s (42 hosts left)
+Completed SYN Stealth Scan against 172.30.1.64 in 7.30s (41 hosts left)
+Completed SYN Stealth Scan against 172.30.1.104 in 7.30s (40 hosts left)
+Completed SYN Stealth Scan against 172.30.1.66 in 7.31s (39 hosts left)
+Completed SYN Stealth Scan against 172.30.1.106 in 7.32s (38 hosts left)
+Completed SYN Stealth Scan against 172.30.1.65 in 7.33s (37 hosts left)
+Completed SYN Stealth Scan against 172.30.1.113 in 7.33s (36 hosts left)
+Completed SYN Stealth Scan against 172.30.1.114 in 7.34s (35 hosts left)
+Completed SYN Stealth Scan against 172.30.1.105 in 7.36s (34 hosts left)
+Discovered open port 3128/tcp on 172.30.1.93
+Discovered open port 3128/tcp on 172.30.1.90
+Discovered open port 3128/tcp on 172.30.1.100
+Discovered open port 3128/tcp on 172.30.1.97
+Discovered open port 3128/tcp on 172.30.1.88
+Discovered open port 3128/tcp on 172.30.1.99
+Discovered open port 3128/tcp on 172.30.1.102
+Discovered open port 3128/tcp on 172.30.1.74
+Discovered open port 3128/tcp on 172.30.1.118
+Discovered open port 3128/tcp on 172.30.1.72
+Discovered open port 3128/tcp on 172.30.1.71
+Discovered open port 3128/tcp on 172.30.1.77
+Discovered open port 3128/tcp on 172.30.1.95
+Discovered open port 3128/tcp on 172.30.1.89
+Discovered open port 3128/tcp on 172.30.1.112
+Discovered open port 3128/tcp on 172.30.1.86
+Discovered open port 3128/tcp on 172.30.1.81
+Discovered open port 3128/tcp on 172.30.1.84
+Discovered open port 3128/tcp on 172.30.1.109
+Discovered open port 3128/tcp on 172.30.1.108
+Discovered open port 3128/tcp on 172.30.1.110
+Discovered open port 3128/tcp on 172.30.1.119
+Discovered open port 3128/tcp on 172.30.1.68
+Discovered open port 3128/tcp on 172.30.1.67
+Discovered open port 3128/tcp on 172.30.1.115
+Discovered open port 3128/tcp on 172.30.1.120
+Discovered open port 3128/tcp on 172.30.1.107
+Discovered open port 3128/tcp on 172.30.1.80
+Discovered open port 3128/tcp on 172.30.1.83
+Discovered open port 3128/tcp on 172.30.1.122
+Discovered open port 3128/tcp on 172.30.1.126
+Discovered open port 3128/tcp on 172.30.1.121
+Completed SYN Stealth Scan against 172.30.1.93 in 7.85s (33 hosts left)
+Completed SYN Stealth Scan against 172.30.1.90 in 7.86s (32 hosts left)
+Discovered open port 3128/tcp on 172.30.1.76
+Completed SYN Stealth Scan against 172.30.1.100 in 7.87s (31 hosts left)
+Discovered open port 3128/tcp on 172.30.1.125
+Completed SYN Stealth Scan against 172.30.1.88 in 7.92s (30 hosts left)
+Completed SYN Stealth Scan against 172.30.1.97 in 7.92s (29 hosts left)
+Completed SYN Stealth Scan against 172.30.1.89 in 7.93s (28 hosts left)
+Completed SYN Stealth Scan against 172.30.1.99 in 7.93s (27 hosts left)
+Completed SYN Stealth Scan against 172.30.1.102 in 7.95s (26 hosts left)
+Completed SYN Stealth Scan against 172.30.1.74 in 7.98s (25 hosts left)
+Completed SYN Stealth Scan against 172.30.1.77 in 7.98s (24 hosts left)
+Completed SYN Stealth Scan against 172.30.1.71 in 7.99s (23 hosts left)
+Completed SYN Stealth Scan against 172.30.1.72 in 7.99s (22 hosts left)
+Completed SYN Stealth Scan against 172.30.1.118 in 7.99s (21 hosts left)
+Completed SYN Stealth Scan against 172.30.1.95 in 8.00s (20 hosts left)
+Completed SYN Stealth Scan against 172.30.1.112 in 8.02s (19 hosts left)
+Completed SYN Stealth Scan against 172.30.1.86 in 8.05s (18 hosts left)
+Completed SYN Stealth Scan against 172.30.1.81 in 8.09s (17 hosts left)
+Completed SYN Stealth Scan against 172.30.1.68 in 8.10s (16 hosts left)
+Completed SYN Stealth Scan against 172.30.1.84 in 8.10s (15 hosts left)
+Completed SYN Stealth Scan against 172.30.1.108 in 8.10s (14 hosts left)
+Completed SYN Stealth Scan against 172.30.1.109 in 8.10s (13 hosts left)
+Completed SYN Stealth Scan against 172.30.1.110 in 8.10s (12 hosts left)
+Completed SYN Stealth Scan against 172.30.1.119 in 8.10s (11 hosts left)
+Completed SYN Stealth Scan against 172.30.1.67 in 8.11s (10 hosts left)
+Completed SYN Stealth Scan against 172.30.1.80 in 8.11s (9 hosts left)
+Completed SYN Stealth Scan against 172.30.1.83 in 8.11s (8 hosts left)
+Completed SYN Stealth Scan against 172.30.1.107 in 8.11s (7 hosts left)
+Completed SYN Stealth Scan against 172.30.1.115 in 8.11s (6 hosts left)
+Completed SYN Stealth Scan against 172.30.1.120 in 8.11s (5 hosts left)
+Completed SYN Stealth Scan against 172.30.1.121 in 8.11s (4 hosts left)
+Completed SYN Stealth Scan against 172.30.1.122 in 8.11s (3 hosts left)
+Completed SYN Stealth Scan against 172.30.1.126 in 8.11s (2 hosts left)
+Completed SYN Stealth Scan against 172.30.1.76 in 8.11s (1 host left)
+Completed SYN Stealth Scan at 08:51, 8.11s elapsed (64000 total ports)
+Nmap scan report for 172.30.1.63
+Host is up, received reset ttl 64 (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.64
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.65
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.66
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.67
+Host is up, received reset ttl 64 (0.0085s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.68
+Host is up, received reset ttl 64 (0.0081s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.69
+Host is up, received syn-ack ttl 64 (0.0088s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.70
+Host is up, received reset ttl 64 (0.0086s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.71
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.72
+Host is up, received reset ttl 64 (0.0088s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.73
+Host is up, received reset ttl 64 (0.0096s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.74
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.75
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.76
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.77
+Host is up, received reset ttl 64 (0.0075s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.78
+Host is up, received reset ttl 64 (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.79
+Host is up, received reset ttl 64 (0.0100s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.80
+Host is up, received reset ttl 64 (0.0076s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.81
+Host is up, received reset ttl 64 (0.0078s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.82
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.83
+Host is up, received reset ttl 64 (0.0073s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.84
+Host is up, received reset ttl 64 (0.0074s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.85
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.86
+Host is up, received reset ttl 64 (0.0079s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.87
+Host is up, received reset ttl 64 (0.0095s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.88
+Host is up, received reset ttl 64 (0.0064s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.89
+Host is up, received reset ttl 64 (0.0073s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.90
+Host is up, received reset ttl 64 (0.0085s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.91
+Host is up, received reset ttl 64 (0.0099s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.92
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.93
+Host is up, received reset ttl 64 (0.0091s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.94
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.95
+Host is up, received reset ttl 64 (0.0067s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.96
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.97
+Host is up, received reset ttl 64 (0.0064s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.98
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.99
+Host is up, received reset ttl 64 (0.0071s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.100
+Host is up, received reset ttl 64 (0.0081s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.101
+Host is up, received reset ttl 64 (0.0091s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.102
+Host is up, received reset ttl 64 (0.0078s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.103
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.104
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.105
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.106
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.107
+Host is up, received reset ttl 64 (0.0088s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.108
+Host is up, received reset ttl 64 (0.0076s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.109
+Host is up, received reset ttl 64 (0.0074s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.110
+Host is up, received reset ttl 64 (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.111
+Host is up, received reset ttl 64 (0.0092s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.112
+Host is up, received reset ttl 64 (0.0072s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.113
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.114
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.115
+Host is up, received reset ttl 64 (0.0073s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.116
+Host is up, received reset ttl 64 (0.0080s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.117
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.118
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.119
+Host is up, received reset ttl 64 (0.0084s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.120
+Host is up, received reset ttl 64 (0.0080s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.121
+Host is up, received reset ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.122
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.123
+Host is up, received reset ttl 64 (0.0079s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.124
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.125
+Host is up, received reset ttl 64 (0.0096s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.126
+Host is up, received reset ttl 64 (0.0061s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Initiating SYN Stealth Scan at 08:51
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 443/tcp on 172.30.1.129
+Discovered open port 443/tcp on 172.30.1.131
+Discovered open port 443/tcp on 172.30.1.128
+Discovered open port 443/tcp on 172.30.1.130
+Discovered open port 443/tcp on 172.30.1.132
+Discovered open port 443/tcp on 172.30.1.134
+Discovered open port 443/tcp on 172.30.1.133
+Discovered open port 443/tcp on 172.30.1.137
+Discovered open port 443/tcp on 172.30.1.135
+Discovered open port 443/tcp on 172.30.1.136
+Discovered open port 443/tcp on 172.30.1.140
+Discovered open port 443/tcp on 172.30.1.141
+Discovered open port 443/tcp on 172.30.1.142
+Discovered open port 443/tcp on 172.30.1.143
+Discovered open port 443/tcp on 172.30.1.144
+Discovered open port 443/tcp on 172.30.1.145
+Discovered open port 443/tcp on 172.30.1.146
+Discovered open port 443/tcp on 172.30.1.147
+Discovered open port 443/tcp on 172.30.1.149
+Discovered open port 443/tcp on 172.30.1.148
+Discovered open port 443/tcp on 172.30.1.151
+Discovered open port 443/tcp on 172.30.1.150
+Discovered open port 443/tcp on 172.30.1.152
+Discovered open port 443/tcp on 172.30.1.154
+Discovered open port 443/tcp on 172.30.1.157
+Discovered open port 443/tcp on 172.30.1.153
+Discovered open port 443/tcp on 172.30.1.159
+Discovered open port 443/tcp on 172.30.1.155
+Discovered open port 443/tcp on 172.30.1.156
+Discovered open port 443/tcp on 172.30.1.158
+Discovered open port 443/tcp on 172.30.1.163
+Discovered open port 443/tcp on 172.30.1.164
+Discovered open port 443/tcp on 172.30.1.166
+Discovered open port 443/tcp on 172.30.1.162
+Discovered open port 443/tcp on 172.30.1.169
+Discovered open port 443/tcp on 172.30.1.165
+Discovered open port 443/tcp on 172.30.1.171
+Discovered open port 443/tcp on 172.30.1.172
+Discovered open port 443/tcp on 172.30.1.167
+Discovered open port 443/tcp on 172.30.1.174
+Discovered open port 443/tcp on 172.30.1.168
+Discovered open port 443/tcp on 172.30.1.176
+Discovered open port 443/tcp on 172.30.1.170
+Discovered open port 443/tcp on 172.30.1.178
+Discovered open port 443/tcp on 172.30.1.173
+Discovered open port 443/tcp on 172.30.1.181
+Discovered open port 443/tcp on 172.30.1.175
+Discovered open port 443/tcp on 172.30.1.183
+Discovered open port 443/tcp on 172.30.1.177
+Discovered open port 443/tcp on 172.30.1.179
+Discovered open port 443/tcp on 172.30.1.180
+Discovered open port 443/tcp on 172.30.1.182
+Discovered open port 443/tcp on 172.30.1.186
+Discovered open port 443/tcp on 172.30.1.187
+Discovered open port 443/tcp on 172.30.1.188
+Discovered open port 443/tcp on 172.30.1.189
+Discovered open port 443/tcp on 172.30.1.190
+Discovered open port 443/tcp on 172.30.1.127
+Discovered open port 443/tcp on 172.30.1.160
+Discovered open port 443/tcp on 172.30.1.161
+Discovered open port 443/tcp on 172.30.1.184
+Discovered open port 443/tcp on 172.30.1.185
+Discovered open port 443/tcp on 172.30.1.138
+Discovered open port 443/tcp on 172.30.1.139
+Discovered open port 8080/tcp on 172.30.1.129
+Discovered open port 8080/tcp on 172.30.1.128
+Discovered open port 8080/tcp on 172.30.1.130
+Discovered open port 8080/tcp on 172.30.1.131
+Discovered open port 8080/tcp on 172.30.1.132
+Discovered open port 8080/tcp on 172.30.1.134
+Discovered open port 8080/tcp on 172.30.1.133
+Discovered open port 8080/tcp on 172.30.1.135
+Discovered open port 8080/tcp on 172.30.1.140
+Discovered open port 8080/tcp on 172.30.1.142
+Discovered open port 8080/tcp on 172.30.1.143
+Discovered open port 8080/tcp on 172.30.1.141
+Discovered open port 8080/tcp on 172.30.1.146
+Discovered open port 8080/tcp on 172.30.1.149
+Discovered open port 8080/tcp on 172.30.1.147
+Discovered open port 8080/tcp on 172.30.1.151
+Discovered open port 8080/tcp on 172.30.1.148
+Discovered open port 8080/tcp on 172.30.1.152
+Discovered open port 8080/tcp on 172.30.1.150
+Discovered open port 8080/tcp on 172.30.1.153
+Discovered open port 8080/tcp on 172.30.1.154
+Discovered open port 8080/tcp on 172.30.1.155
+Discovered open port 8080/tcp on 172.30.1.158
+Discovered open port 8080/tcp on 172.30.1.159
+Discovered open port 8080/tcp on 172.30.1.162
+Discovered open port 8080/tcp on 172.30.1.163
+Discovered open port 8080/tcp on 172.30.1.164
+Discovered open port 8080/tcp on 172.30.1.166
+Discovered open port 8080/tcp on 172.30.1.170
+Discovered open port 8080/tcp on 172.30.1.175
+Discovered open port 8080/tcp on 172.30.1.171
+Discovered open port 8080/tcp on 172.30.1.177
+Discovered open port 8080/tcp on 172.30.1.176
+Discovered open port 8080/tcp on 172.30.1.179
+Discovered open port 8080/tcp on 172.30.1.178
+Discovered open port 8080/tcp on 172.30.1.181
+Discovered open port 8080/tcp on 172.30.1.180
+Discovered open port 8080/tcp on 172.30.1.183
+Discovered open port 8080/tcp on 172.30.1.182
+Discovered open port 8080/tcp on 172.30.1.187
+Discovered open port 8080/tcp on 172.30.1.188
+Discovered open port 8080/tcp on 172.30.1.127
+Discovered open port 8080/tcp on 172.30.1.144
+Discovered open port 8080/tcp on 172.30.1.145
+Discovered open port 8080/tcp on 172.30.1.157
+Discovered open port 8080/tcp on 172.30.1.156
+Discovered open port 8080/tcp on 172.30.1.167
+Discovered open port 8080/tcp on 172.30.1.169
+Discovered open port 8080/tcp on 172.30.1.172
+Discovered open port 8080/tcp on 172.30.1.174
+Discovered open port 8080/tcp on 172.30.1.186
+Discovered open port 8080/tcp on 172.30.1.190
+Discovered open port 80/tcp on 172.30.1.129
+Discovered open port 80/tcp on 172.30.1.128
+Discovered open port 80/tcp on 172.30.1.131
+Discovered open port 80/tcp on 172.30.1.130
+Discovered open port 80/tcp on 172.30.1.132
+Discovered open port 80/tcp on 172.30.1.133
+Discovered open port 80/tcp on 172.30.1.134
+Discovered open port 80/tcp on 172.30.1.135
+Discovered open port 8080/tcp on 172.30.1.136
+Discovered open port 8080/tcp on 172.30.1.139
+Discovered open port 80/tcp on 172.30.1.140
+Discovered open port 80/tcp on 172.30.1.141
+Discovered open port 80/tcp on 172.30.1.142
+Discovered open port 80/tcp on 172.30.1.143
+Discovered open port 80/tcp on 172.30.1.146
+Discovered open port 80/tcp on 172.30.1.149
+Discovered open port 80/tcp on 172.30.1.151
+Discovered open port 80/tcp on 172.30.1.147
+Discovered open port 80/tcp on 172.30.1.152
+Discovered open port 80/tcp on 172.30.1.148
+Discovered open port 80/tcp on 172.30.1.154
+Discovered open port 80/tcp on 172.30.1.150
+Discovered open port 80/tcp on 172.30.1.153
+Discovered open port 80/tcp on 172.30.1.155
+Discovered open port 80/tcp on 172.30.1.158
+Discovered open port 80/tcp on 172.30.1.159
+Discovered open port 8080/tcp on 172.30.1.160
+Discovered open port 8080/tcp on 172.30.1.161
+Discovered open port 80/tcp on 172.30.1.163
+Discovered open port 80/tcp on 172.30.1.162
+Discovered open port 80/tcp on 172.30.1.164
+Discovered open port 80/tcp on 172.30.1.165
+Discovered open port 80/tcp on 172.30.1.166
+Discovered open port 8080/tcp on 172.30.1.168
+Discovered open port 80/tcp on 172.30.1.170
+Discovered open port 80/tcp on 172.30.1.171
+Discovered open port 8080/tcp on 172.30.1.173
+Discovered open port 80/tcp on 172.30.1.175
+Discovered open port 80/tcp on 172.30.1.178
+Discovered open port 80/tcp on 172.30.1.177
+Discovered open port 80/tcp on 172.30.1.181
+Discovered open port 80/tcp on 172.30.1.179
+Discovered open port 80/tcp on 172.30.1.183
+Discovered open port 80/tcp on 172.30.1.180
+Discovered open port 8080/tcp on 172.30.1.184
+Discovered open port 8080/tcp on 172.30.1.189
+Discovered open port 80/tcp on 172.30.1.182
+Discovered open port 80/tcp on 172.30.1.187
+Discovered open port 8080/tcp on 172.30.1.137
+Discovered open port 80/tcp on 172.30.1.127
+Discovered open port 8080/tcp on 172.30.1.138
+Discovered open port 80/tcp on 172.30.1.144
+Discovered open port 80/tcp on 172.30.1.145
+Discovered open port 80/tcp on 172.30.1.167
+Discovered open port 80/tcp on 172.30.1.169
+Discovered open port 80/tcp on 172.30.1.172
+Discovered open port 80/tcp on 172.30.1.174
+Discovered open port 8080/tcp on 172.30.1.185
+Discovered open port 80/tcp on 172.30.1.186
+Discovered open port 80/tcp on 172.30.1.188
+Discovered open port 80/tcp on 172.30.1.190
+Discovered open port 80/tcp on 172.30.1.136
+Discovered open port 80/tcp on 172.30.1.157
+Discovered open port 80/tcp on 172.30.1.156
+Discovered open port 80/tcp on 172.30.1.161
+Discovered open port 80/tcp on 172.30.1.160
+Discovered open port 80/tcp on 172.30.1.168
+Discovered open port 80/tcp on 172.30.1.173
+Discovered open port 80/tcp on 172.30.1.189
+Discovered open port 80/tcp on 172.30.1.137
+Discovered open port 80/tcp on 172.30.1.138
+Discovered open port 80/tcp on 172.30.1.139
+Discovered open port 80/tcp on 172.30.1.184
+Discovered open port 80/tcp on 172.30.1.185
+Discovered open port 53/tcp on 172.30.1.129
+Discovered open port 53/tcp on 172.30.1.132
+Discovered open port 53/tcp on 172.30.1.133
+Discovered open port 53/tcp on 172.30.1.141
+Discovered open port 53/tcp on 172.30.1.143
+Discovered open port 53/tcp on 172.30.1.142
+Discovered open port 53/tcp on 172.30.1.146
+Discovered open port 53/tcp on 172.30.1.149
+Discovered open port 53/tcp on 172.30.1.153
+Discovered open port 53/tcp on 172.30.1.162
+Discovered open port 53/tcp on 172.30.1.170
+Discovered open port 53/tcp on 172.30.1.171
+Discovered open port 53/tcp on 172.30.1.177
+Discovered open port 53/tcp on 172.30.1.176
+Discovered open port 53/tcp on 172.30.1.178
+Discovered open port 53/tcp on 172.30.1.187
+Discovered open port 53/tcp on 172.30.1.131
+Discovered open port 53/tcp on 172.30.1.134
+Discovered open port 53/tcp on 172.30.1.128
+Discovered open port 53/tcp on 172.30.1.130
+Discovered open port 53/tcp on 172.30.1.135
+Discovered open port 53/tcp on 172.30.1.140
+Discovered open port 53/tcp on 172.30.1.144
+Discovered open port 53/tcp on 172.30.1.145
+Discovered open port 53/tcp on 172.30.1.147
+Discovered open port 53/tcp on 172.30.1.148
+Discovered open port 53/tcp on 172.30.1.152
+Discovered open port 53/tcp on 172.30.1.150
+Discovered open port 53/tcp on 172.30.1.154
+Discovered open port 53/tcp on 172.30.1.155
+Discovered open port 53/tcp on 172.30.1.158
+Discovered open port 53/tcp on 172.30.1.151
+Discovered open port 53/tcp on 172.30.1.161
+Discovered open port 53/tcp on 172.30.1.156
+Discovered open port 53/tcp on 172.30.1.167
+Discovered open port 53/tcp on 172.30.1.168
+Discovered open port 53/tcp on 172.30.1.174
+Discovered open port 53/tcp on 172.30.1.189
+Discovered open port 53/tcp on 172.30.1.137
+Discovered open port 53/tcp on 172.30.1.157
+Discovered open port 53/tcp on 172.30.1.160
+Discovered open port 53/tcp on 172.30.1.172
+Discovered open port 53/tcp on 172.30.1.138
+Discovered open port 53/tcp on 172.30.1.139
+Discovered open port 53/tcp on 172.30.1.173
+Discovered open port 53/tcp on 172.30.1.184
+Discovered open port 53/tcp on 172.30.1.185
+Discovered open port 8080/tcp on 172.30.1.165
+Discovered open port 53/tcp on 172.30.1.165
+Discovered open port 80/tcp on 172.30.1.176
+Discovered open port 53/tcp on 172.30.1.127
+Discovered open port 53/tcp on 172.30.1.175
+Discovered open port 53/tcp on 172.30.1.179
+Discovered open port 53/tcp on 172.30.1.159
+Discovered open port 53/tcp on 172.30.1.163
+Discovered open port 53/tcp on 172.30.1.180
+Discovered open port 53/tcp on 172.30.1.164
+Discovered open port 53/tcp on 172.30.1.166
+Discovered open port 53/tcp on 172.30.1.169
+Discovered open port 53/tcp on 172.30.1.136
+Discovered open port 53/tcp on 172.30.1.181
+Discovered open port 53/tcp on 172.30.1.182
+Discovered open port 53/tcp on 172.30.1.183
+Discovered open port 53/tcp on 172.30.1.188
+Discovered open port 53/tcp on 172.30.1.186
+Discovered open port 53/tcp on 172.30.1.190
+Discovered open port 3128/tcp on 172.30.1.160
+Discovered open port 3128/tcp on 172.30.1.189
+Discovered open port 3128/tcp on 172.30.1.171
+Discovered open port 3128/tcp on 172.30.1.187
+Discovered open port 3128/tcp on 172.30.1.161
+Discovered open port 3128/tcp on 172.30.1.128
+Discovered open port 3128/tcp on 172.30.1.177
+Discovered open port 3128/tcp on 172.30.1.132
+Discovered open port 3128/tcp on 172.30.1.133
+Discovered open port 3128/tcp on 172.30.1.174
+Discovered open port 3128/tcp on 172.30.1.184
+Discovered open port 3128/tcp on 172.30.1.157
+Discovered open port 3128/tcp on 172.30.1.178
+Discovered open port 3128/tcp on 172.30.1.137
+Discovered open port 3128/tcp on 172.30.1.149
+Discovered open port 3128/tcp on 172.30.1.162
+Discovered open port 3128/tcp on 172.30.1.173
+Discovered open port 3128/tcp on 172.30.1.148
+Discovered open port 3128/tcp on 172.30.1.129
+Discovered open port 3128/tcp on 172.30.1.131
+Discovered open port 3128/tcp on 172.30.1.172
+Discovered open port 3128/tcp on 172.30.1.138
+Discovered open port 3128/tcp on 172.30.1.140
+Discovered open port 3128/tcp on 172.30.1.145
+Discovered open port 3128/tcp on 172.30.1.146
+Discovered open port 3128/tcp on 172.30.1.152
+Discovered open port 3128/tcp on 172.30.1.147
+Discovered open port 3128/tcp on 172.30.1.158
+Discovered open port 3128/tcp on 172.30.1.130
+Discovered open port 3128/tcp on 172.30.1.154
+Discovered open port 3128/tcp on 172.30.1.185
+Discovered open port 3128/tcp on 172.30.1.135
+Discovered open port 3128/tcp on 172.30.1.144
+Discovered open port 3128/tcp on 172.30.1.134
+Discovered open port 3128/tcp on 172.30.1.142
+Discovered open port 3128/tcp on 172.30.1.143
+Discovered open port 3128/tcp on 172.30.1.151
+Discovered open port 3128/tcp on 172.30.1.139
+Completed SYN Stealth Scan against 172.30.1.160 in 6.97s (63 hosts left)
+Completed SYN Stealth Scan against 172.30.1.161 in 6.98s (62 hosts left)
+Completed SYN Stealth Scan against 172.30.1.187 in 6.98s (61 hosts left)
+Completed SYN Stealth Scan against 172.30.1.171 in 7.01s (60 hosts left)
+Completed SYN Stealth Scan against 172.30.1.177 in 7.02s (59 hosts left)
+Completed SYN Stealth Scan against 172.30.1.128 in 7.03s (58 hosts left)
+Completed SYN Stealth Scan against 172.30.1.189 in 7.03s (57 hosts left)
+Completed SYN Stealth Scan against 172.30.1.132 in 7.04s (56 hosts left)
+Completed SYN Stealth Scan against 172.30.1.133 in 7.04s (55 hosts left)
+Completed SYN Stealth Scan against 172.30.1.162 in 7.04s (54 hosts left)
+Completed SYN Stealth Scan against 172.30.1.157 in 7.06s (53 hosts left)
+Completed SYN Stealth Scan against 172.30.1.174 in 7.06s (52 hosts left)
+Completed SYN Stealth Scan against 172.30.1.178 in 7.06s (51 hosts left)
+Completed SYN Stealth Scan against 172.30.1.129 in 7.07s (50 hosts left)
+Completed SYN Stealth Scan against 172.30.1.131 in 7.07s (49 hosts left)
+Completed SYN Stealth Scan against 172.30.1.137 in 7.07s (48 hosts left)
+Completed SYN Stealth Scan against 172.30.1.149 in 7.07s (47 hosts left)
+Completed SYN Stealth Scan against 172.30.1.138 in 7.08s (46 hosts left)
+Completed SYN Stealth Scan against 172.30.1.140 in 7.08s (45 hosts left)
+Completed SYN Stealth Scan against 172.30.1.145 in 7.08s (44 hosts left)
+Completed SYN Stealth Scan against 172.30.1.147 in 7.08s (43 hosts left)
+Completed SYN Stealth Scan against 172.30.1.148 in 7.08s (42 hosts left)
+Completed SYN Stealth Scan against 172.30.1.152 in 7.08s (41 hosts left)
+Completed SYN Stealth Scan against 172.30.1.146 in 7.10s (40 hosts left)
+Completed SYN Stealth Scan against 172.30.1.172 in 7.10s (39 hosts left)
+Completed SYN Stealth Scan against 172.30.1.173 in 7.10s (38 hosts left)
+Completed SYN Stealth Scan against 172.30.1.130 in 7.11s (37 hosts left)
+Completed SYN Stealth Scan against 172.30.1.143 in 7.11s (36 hosts left)
+Completed SYN Stealth Scan against 172.30.1.144 in 7.11s (35 hosts left)
+Completed SYN Stealth Scan against 172.30.1.158 in 7.11s (34 hosts left)
+Completed SYN Stealth Scan against 172.30.1.185 in 7.11s (33 hosts left)
+Completed SYN Stealth Scan against 172.30.1.134 in 7.12s (32 hosts left)
+Completed SYN Stealth Scan against 172.30.1.142 in 7.12s (31 hosts left)
+Completed SYN Stealth Scan against 172.30.1.154 in 7.12s (30 hosts left)
+Completed SYN Stealth Scan against 172.30.1.135 in 7.14s (29 hosts left)
+Completed SYN Stealth Scan against 172.30.1.139 in 7.14s (28 hosts left)
+Completed SYN Stealth Scan against 172.30.1.151 in 7.14s (27 hosts left)
+Discovered open port 3128/tcp on 172.30.1.167
+Discovered open port 3128/tcp on 172.30.1.168
+Discovered open port 3128/tcp on 172.30.1.170
+Discovered open port 3128/tcp on 172.30.1.141
+Discovered open port 3128/tcp on 172.30.1.155
+Discovered open port 3128/tcp on 172.30.1.156
+Discovered open port 3128/tcp on 172.30.1.153
+Discovered open port 3128/tcp on 172.30.1.150
+Discovered open port 3128/tcp on 172.30.1.176
+Discovered open port 3128/tcp on 172.30.1.188
+Discovered open port 3128/tcp on 172.30.1.165
+Discovered open port 3128/tcp on 172.30.1.163
+Discovered open port 3128/tcp on 172.30.1.164
+Discovered open port 3128/tcp on 172.30.1.186
+Discovered open port 3128/tcp on 172.30.1.179
+Discovered open port 3128/tcp on 172.30.1.169
+Discovered open port 3128/tcp on 172.30.1.175
+Discovered open port 3128/tcp on 172.30.1.159
+Discovered open port 3128/tcp on 172.30.1.166
+Discovered open port 3128/tcp on 172.30.1.181
+Discovered open port 3128/tcp on 172.30.1.136
+Discovered open port 3128/tcp on 172.30.1.180
+Discovered open port 3128/tcp on 172.30.1.182
+Discovered open port 3128/tcp on 172.30.1.190
+Discovered open port 3128/tcp on 172.30.1.127
+Discovered open port 3128/tcp on 172.30.1.183
+Completed SYN Stealth Scan against 172.30.1.167 in 7.60s (26 hosts left)
+Completed SYN Stealth Scan against 172.30.1.168 in 7.62s (25 hosts left)
+Completed SYN Stealth Scan against 172.30.1.170 in 7.63s (24 hosts left)
+Completed SYN Stealth Scan against 172.30.1.141 in 7.72s (23 hosts left)
+Completed SYN Stealth Scan against 172.30.1.155 in 7.72s (22 hosts left)
+Completed SYN Stealth Scan against 172.30.1.156 in 7.72s (21 hosts left)
+Completed SYN Stealth Scan against 172.30.1.153 in 7.72s (20 hosts left)
+Completed SYN Stealth Scan against 172.30.1.150 in 7.73s (19 hosts left)
+Completed SYN Stealth Scan against 172.30.1.165 in 7.74s (18 hosts left)
+Completed SYN Stealth Scan against 172.30.1.176 in 7.74s (17 hosts left)
+Completed SYN Stealth Scan against 172.30.1.184 in 7.74s (16 hosts left)
+Completed SYN Stealth Scan against 172.30.1.188 in 7.74s (15 hosts left)
+Completed SYN Stealth Scan against 172.30.1.163 in 7.75s (14 hosts left)
+Completed SYN Stealth Scan against 172.30.1.164 in 7.75s (13 hosts left)
+Completed SYN Stealth Scan against 172.30.1.159 in 7.76s (12 hosts left)
+Completed SYN Stealth Scan against 172.30.1.166 in 7.76s (11 hosts left)
+Completed SYN Stealth Scan against 172.30.1.169 in 7.76s (10 hosts left)
+Completed SYN Stealth Scan against 172.30.1.186 in 7.76s (9 hosts left)
+Completed SYN Stealth Scan against 172.30.1.175 in 7.77s (8 hosts left)
+Completed SYN Stealth Scan against 172.30.1.179 in 7.77s (7 hosts left)
+Completed SYN Stealth Scan against 172.30.1.136 in 7.78s (6 hosts left)
+Completed SYN Stealth Scan against 172.30.1.180 in 7.78s (5 hosts left)
+Completed SYN Stealth Scan against 172.30.1.181 in 7.78s (4 hosts left)
+Completed SYN Stealth Scan against 172.30.1.182 in 7.78s (3 hosts left)
+Completed SYN Stealth Scan against 172.30.1.127 in 7.79s (2 hosts left)
+Completed SYN Stealth Scan against 172.30.1.183 in 7.79s (1 host left)
+Completed SYN Stealth Scan at 08:51, 7.79s elapsed (64000 total ports)
+Nmap scan report for 172.30.1.127
+Host is up, received reset ttl 64 (0.017s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.128
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.129
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.130
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.131
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.132
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.133
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.134
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.135
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.136
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.137
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.138
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.139
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.140
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.141
+Host is up, received reset ttl 64 (0.0066s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.142
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.143
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.144
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.145
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.146
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.147
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.148
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.149
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.150
+Host is up, received reset ttl 64 (0.0078s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.151
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.152
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.153
+Host is up, received reset ttl 64 (0.0075s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.154
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.155
+Host is up, received reset ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.156
+Host is up, received reset ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.157
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.158
+Host is up, received reset ttl 64 (0.0098s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.159
+Host is up, received reset ttl 64 (0.0070s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.160
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.161
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.162
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.163
+Host is up, received reset ttl 64 (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.164
+Host is up, received reset ttl 64 (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.165
+Host is up, received reset ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.166
+Host is up, received reset ttl 64 (0.0075s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.167
+Host is up, received reset ttl 64 (0.0063s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.168
+Host is up, received reset ttl 64 (0.0074s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.169
+Host is up, received reset ttl 64 (0.0083s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.170
+Host is up, received reset ttl 64 (0.0074s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.171
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.172
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.173
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.174
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.175
+Host is up, received reset ttl 64 (0.0071s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.176
+Host is up, received reset ttl 64 (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.177
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.178
+Host is up, received reset ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.179
+Host is up, received reset ttl 64 (0.0070s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.180
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.181
+Host is up, received reset ttl 64 (0.010s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.182
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.183
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.184
+Host is up, received reset ttl 64 (0.0070s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.185
+Host is up, received reset ttl 64 (0.0094s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.186
+Host is up, received reset ttl 64 (0.0072s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.187
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.188
+Host is up, received reset ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.189
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.190
+Host is up, received reset ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Initiating SYN Stealth Scan at 08:51
+Scanning 64 hosts [1000 ports/host]
+Discovered open port 443/tcp on 172.30.1.192
+Discovered open port 443/tcp on 172.30.1.194
+Discovered open port 443/tcp on 172.30.1.193
+Discovered open port 443/tcp on 172.30.1.195
+Discovered open port 443/tcp on 172.30.1.197
+Discovered open port 443/tcp on 172.30.1.196
+Discovered open port 443/tcp on 172.30.1.199
+Discovered open port 443/tcp on 172.30.1.198
+Discovered open port 443/tcp on 172.30.1.200
+Discovered open port 443/tcp on 172.30.1.201
+Discovered open port 443/tcp on 172.30.1.204
+Discovered open port 443/tcp on 172.30.1.205
+Discovered open port 443/tcp on 172.30.1.206
+Discovered open port 443/tcp on 172.30.1.207
+Discovered open port 443/tcp on 172.30.1.209
+Discovered open port 443/tcp on 172.30.1.208
+Discovered open port 443/tcp on 172.30.1.211
+Discovered open port 443/tcp on 172.30.1.212
+Discovered open port 443/tcp on 172.30.1.210
+Discovered open port 443/tcp on 172.30.1.213
+Discovered open port 443/tcp on 172.30.1.214
+Discovered open port 443/tcp on 172.30.1.215
+Discovered open port 443/tcp on 172.30.1.217
+Discovered open port 443/tcp on 172.30.1.216
+Discovered open port 443/tcp on 172.30.1.219
+Discovered open port 443/tcp on 172.30.1.218
+Discovered open port 443/tcp on 172.30.1.220
+Discovered open port 443/tcp on 172.30.1.221
+Discovered open port 443/tcp on 172.30.1.222
+Discovered open port 443/tcp on 172.30.1.223
+Discovered open port 443/tcp on 172.30.1.226
+Discovered open port 443/tcp on 172.30.1.227
+Discovered open port 443/tcp on 172.30.1.228
+Discovered open port 443/tcp on 172.30.1.229
+Discovered open port 443/tcp on 172.30.1.230
+Discovered open port 443/tcp on 172.30.1.231
+Discovered open port 443/tcp on 172.30.1.233
+Discovered open port 443/tcp on 172.30.1.232
+Discovered open port 443/tcp on 172.30.1.235
+Discovered open port 443/tcp on 172.30.1.234
+Discovered open port 443/tcp on 172.30.1.236
+Discovered open port 443/tcp on 172.30.1.237
+Discovered open port 443/tcp on 172.30.1.238
+Discovered open port 443/tcp on 172.30.1.239
+Discovered open port 443/tcp on 172.30.1.240
+Discovered open port 443/tcp on 172.30.1.241
+Discovered open port 443/tcp on 172.30.1.242
+Discovered open port 443/tcp on 172.30.1.243
+Discovered open port 443/tcp on 172.30.1.247
+Discovered open port 443/tcp on 172.30.1.244
+Discovered open port 443/tcp on 172.30.1.246
+Discovered open port 443/tcp on 172.30.1.251
+Discovered open port 443/tcp on 172.30.1.250
+Discovered open port 443/tcp on 172.30.1.252
+Discovered open port 443/tcp on 172.30.1.254
+Discovered open port 443/tcp on 172.30.1.253
+Discovered open port 443/tcp on 172.30.1.191
+Discovered open port 443/tcp on 172.30.1.224
+Discovered open port 443/tcp on 172.30.1.225
+Discovered open port 443/tcp on 172.30.1.249
+Discovered open port 443/tcp on 172.30.1.248
+Discovered open port 443/tcp on 172.30.1.202
+Discovered open port 443/tcp on 172.30.1.203
+Discovered open port 8080/tcp on 172.30.1.193
+Discovered open port 8080/tcp on 172.30.1.192
+Discovered open port 8080/tcp on 172.30.1.195
+Discovered open port 8080/tcp on 172.30.1.194
+Discovered open port 8080/tcp on 172.30.1.196
+Discovered open port 8080/tcp on 172.30.1.197
+Discovered open port 8080/tcp on 172.30.1.198
+Discovered open port 8080/tcp on 172.30.1.201
+Discovered open port 8080/tcp on 172.30.1.208
+Discovered open port 8080/tcp on 172.30.1.209
+Discovered open port 8080/tcp on 172.30.1.210
+Discovered open port 8080/tcp on 172.30.1.211
+Discovered open port 8080/tcp on 172.30.1.213
+Discovered open port 8080/tcp on 172.30.1.212
+Discovered open port 8080/tcp on 172.30.1.218
+Discovered open port 8080/tcp on 172.30.1.214
+Discovered open port 8080/tcp on 172.30.1.221
+Discovered open port 8080/tcp on 172.30.1.217
+Discovered open port 8080/tcp on 172.30.1.219
+Discovered open port 8080/tcp on 172.30.1.220
+Discovered open port 8080/tcp on 172.30.1.227
+Discovered open port 8080/tcp on 172.30.1.226
+Discovered open port 8080/tcp on 172.30.1.228
+Discovered open port 8080/tcp on 172.30.1.229
+Discovered open port 8080/tcp on 172.30.1.233
+Discovered open port 8080/tcp on 172.30.1.232
+Discovered open port 8080/tcp on 172.30.1.235
+Discovered open port 8080/tcp on 172.30.1.234
+Discovered open port 8080/tcp on 172.30.1.238
+Discovered open port 8080/tcp on 172.30.1.239
+Discovered open port 8080/tcp on 172.30.1.240
+Discovered open port 8080/tcp on 172.30.1.241
+Discovered open port 8080/tcp on 172.30.1.242
+Discovered open port 8080/tcp on 172.30.1.243
+Discovered open port 8080/tcp on 172.30.1.244
+Discovered open port 8080/tcp on 172.30.1.247
+Discovered open port 8080/tcp on 172.30.1.250
+Discovered open port 8080/tcp on 172.30.1.254
+Discovered open port 8080/tcp on 172.30.1.191
+Discovered open port 8080/tcp on 172.30.1.204
+Discovered open port 8080/tcp on 172.30.1.215
+Discovered open port 8080/tcp on 172.30.1.216
+Discovered open port 8080/tcp on 172.30.1.223
+Discovered open port 8080/tcp on 172.30.1.222
+Discovered open port 8080/tcp on 172.30.1.224
+Discovered open port 8080/tcp on 172.30.1.225
+Discovered open port 8080/tcp on 172.30.1.231
+Discovered open port 8080/tcp on 172.30.1.230
+Discovered open port 8080/tcp on 172.30.1.237
+Discovered open port 8080/tcp on 172.30.1.236
+Discovered open port 8080/tcp on 172.30.1.245
+Discovered open port 8080/tcp on 172.30.1.249
+Discovered open port 8080/tcp on 172.30.1.246
+Discovered open port 8080/tcp on 172.30.1.248
+Discovered open port 8080/tcp on 172.30.1.251
+Discovered open port 8080/tcp on 172.30.1.253
+Discovered open port 80/tcp on 172.30.1.193
+Discovered open port 80/tcp on 172.30.1.192
+Discovered open port 80/tcp on 172.30.1.195
+Discovered open port 80/tcp on 172.30.1.194
+Discovered open port 80/tcp on 172.30.1.196
+Discovered open port 80/tcp on 172.30.1.197
+Discovered open port 80/tcp on 172.30.1.198
+Discovered open port 8080/tcp on 172.30.1.199
+Discovered open port 80/tcp on 172.30.1.201
+Discovered open port 8080/tcp on 172.30.1.200
+Discovered open port 8080/tcp on 172.30.1.202
+Discovered open port 80/tcp on 172.30.1.205
+Discovered open port 8080/tcp on 172.30.1.206
+Discovered open port 8080/tcp on 172.30.1.207
+Discovered open port 80/tcp on 172.30.1.208
+Discovered open port 80/tcp on 172.30.1.209
+Discovered open port 80/tcp on 172.30.1.212
+Discovered open port 80/tcp on 172.30.1.213
+Discovered open port 80/tcp on 172.30.1.214
+Discovered open port 80/tcp on 172.30.1.217
+Discovered open port 80/tcp on 172.30.1.219
+Discovered open port 80/tcp on 172.30.1.218
+Discovered open port 80/tcp on 172.30.1.220
+Discovered open port 80/tcp on 172.30.1.221
+Discovered open port 80/tcp on 172.30.1.226
+Discovered open port 80/tcp on 172.30.1.228
+Discovered open port 80/tcp on 172.30.1.233
+Discovered open port 80/tcp on 172.30.1.232
+Discovered open port 80/tcp on 172.30.1.235
+Discovered open port 80/tcp on 172.30.1.234
+Discovered open port 80/tcp on 172.30.1.238
+Discovered open port 80/tcp on 172.30.1.239
+Discovered open port 80/tcp on 172.30.1.240
+Discovered open port 80/tcp on 172.30.1.243
+Discovered open port 80/tcp on 172.30.1.244
+Discovered open port 80/tcp on 172.30.1.247
+Discovered open port 80/tcp on 172.30.1.250
+Discovered open port 8080/tcp on 172.30.1.252
+Discovered open port 8080/tcp on 172.30.1.203
+Discovered open port 80/tcp on 172.30.1.204
+Discovered open port 80/tcp on 172.30.1.211
+Discovered open port 80/tcp on 172.30.1.210
+Discovered open port 80/tcp on 172.30.1.215
+Discovered open port 80/tcp on 172.30.1.216
+Discovered open port 80/tcp on 172.30.1.222
+Discovered open port 80/tcp on 172.30.1.224
+Discovered open port 80/tcp on 172.30.1.223
+Discovered open port 80/tcp on 172.30.1.225
+Discovered open port 80/tcp on 172.30.1.229
+Discovered open port 80/tcp on 172.30.1.231
+Discovered open port 80/tcp on 172.30.1.237
+Discovered open port 80/tcp on 172.30.1.236
+Discovered open port 80/tcp on 172.30.1.241
+Discovered open port 80/tcp on 172.30.1.245
+Discovered open port 80/tcp on 172.30.1.246
+Discovered open port 80/tcp on 172.30.1.249
+Discovered open port 80/tcp on 172.30.1.248
+Discovered open port 80/tcp on 172.30.1.251
+Discovered open port 80/tcp on 172.30.1.253
+Discovered open port 80/tcp on 172.30.1.254
+Discovered open port 80/tcp on 172.30.1.191
+Discovered open port 80/tcp on 172.30.1.202
+Discovered open port 80/tcp on 172.30.1.206
+Discovered open port 80/tcp on 172.30.1.207
+Discovered open port 80/tcp on 172.30.1.242
+Discovered open port 80/tcp on 172.30.1.230
+Discovered open port 80/tcp on 172.30.1.199
+Discovered open port 80/tcp on 172.30.1.200
+Discovered open port 80/tcp on 172.30.1.203
+Discovered open port 80/tcp on 172.30.1.252
+Discovered open port 53/tcp on 172.30.1.195
+Discovered open port 53/tcp on 172.30.1.194
+Discovered open port 53/tcp on 172.30.1.208
+Discovered open port 53/tcp on 172.30.1.212
+Discovered open port 53/tcp on 172.30.1.213
+Discovered open port 53/tcp on 172.30.1.219
+Discovered open port 53/tcp on 172.30.1.218
+Discovered open port 53/tcp on 172.30.1.226
+Discovered open port 53/tcp on 172.30.1.233
+Discovered open port 53/tcp on 172.30.1.232
+Discovered open port 53/tcp on 172.30.1.238
+Discovered open port 53/tcp on 172.30.1.239
+Discovered open port 53/tcp on 172.30.1.240
+Discovered open port 53/tcp on 172.30.1.244
+Discovered open port 53/tcp on 172.30.1.247
+Discovered open port 53/tcp on 172.30.1.250
+Discovered open port 53/tcp on 172.30.1.193
+Discovered open port 53/tcp on 172.30.1.197
+Discovered open port 53/tcp on 172.30.1.237
+Discovered open port 53/tcp on 172.30.1.241
+Discovered open port 53/tcp on 172.30.1.248
+Discovered open port 53/tcp on 172.30.1.249
+Discovered open port 53/tcp on 172.30.1.192
+Discovered open port 53/tcp on 172.30.1.202
+Discovered open port 53/tcp on 172.30.1.207
+Discovered open port 53/tcp on 172.30.1.206
+Discovered open port 53/tcp on 172.30.1.210
+Discovered open port 53/tcp on 172.30.1.215
+Discovered open port 53/tcp on 172.30.1.216
+Discovered open port 53/tcp on 172.30.1.224
+Discovered open port 53/tcp on 172.30.1.230
+Discovered open port 53/tcp on 172.30.1.243
+Discovered open port 53/tcp on 172.30.1.246
+Discovered open port 53/tcp on 172.30.1.251
+Discovered open port 53/tcp on 172.30.1.253
+Discovered open port 53/tcp on 172.30.1.254
+Discovered open port 53/tcp on 172.30.1.203
+Discovered open port 53/tcp on 172.30.1.225
+Discovered open port 53/tcp on 172.30.1.236
+Discovered open port 53/tcp on 172.30.1.242
+Discovered open port 53/tcp on 172.30.1.191
+Discovered open port 53/tcp on 172.30.1.199
+Discovered open port 53/tcp on 172.30.1.200
+Discovered open port 53/tcp on 172.30.1.235
+Discovered open port 53/tcp on 172.30.1.252
+Discovered open port 443/tcp on 172.30.1.245
+Discovered open port 8080/tcp on 172.30.1.205
+Discovered open port 53/tcp on 172.30.1.245
+Discovered open port 80/tcp on 172.30.1.227
+Discovered open port 53/tcp on 172.30.1.205
+Discovered open port 53/tcp on 172.30.1.227
+Discovered open port 53/tcp on 172.30.1.196
+Discovered open port 53/tcp on 172.30.1.198
+Discovered open port 53/tcp on 172.30.1.201
+Discovered open port 53/tcp on 172.30.1.209
+Discovered open port 53/tcp on 172.30.1.204
+Discovered open port 53/tcp on 172.30.1.211
+Discovered open port 53/tcp on 172.30.1.221
+Discovered open port 53/tcp on 172.30.1.214
+Discovered open port 53/tcp on 172.30.1.223
+Discovered open port 53/tcp on 172.30.1.217
+Discovered open port 53/tcp on 172.30.1.228
+Discovered open port 53/tcp on 172.30.1.220
+Discovered open port 53/tcp on 172.30.1.222
+Discovered open port 53/tcp on 172.30.1.229
+Discovered open port 53/tcp on 172.30.1.231
+Discovered open port 53/tcp on 172.30.1.234
+Discovered open port 3128/tcp on 172.30.1.199
+Discovered open port 3128/tcp on 172.30.1.240
+Discovered open port 3128/tcp on 172.30.1.215
+Discovered open port 3128/tcp on 172.30.1.235
+Discovered open port 3128/tcp on 172.30.1.250
+Discovered open port 3128/tcp on 172.30.1.212
+Discovered open port 3128/tcp on 172.30.1.206
+Discovered open port 3128/tcp on 172.30.1.225
+Discovered open port 3128/tcp on 172.30.1.216
+Discovered open port 3128/tcp on 172.30.1.230
+Discovered open port 3128/tcp on 172.30.1.236
+Discovered open port 3128/tcp on 172.30.1.218
+Discovered open port 3128/tcp on 172.30.1.244
+Discovered open port 3128/tcp on 172.30.1.193
+Discovered open port 3128/tcp on 172.30.1.219
+Discovered open port 3128/tcp on 172.30.1.247
+Discovered open port 3128/tcp on 172.30.1.253
+Discovered open port 3128/tcp on 172.30.1.192
+Discovered open port 3128/tcp on 172.30.1.200
+Discovered open port 3128/tcp on 172.30.1.207
+Discovered open port 3128/tcp on 172.30.1.233
+Discovered open port 3128/tcp on 172.30.1.191
+Discovered open port 3128/tcp on 172.30.1.203
+Discovered open port 3128/tcp on 172.30.1.208
+Discovered open port 3128/tcp on 172.30.1.213
+Discovered open port 3128/tcp on 172.30.1.254
+Discovered open port 3128/tcp on 172.30.1.197
+Discovered open port 3128/tcp on 172.30.1.232
+Discovered open port 3128/tcp on 172.30.1.246
+Discovered open port 3128/tcp on 172.30.1.202
+Discovered open port 3128/tcp on 172.30.1.210
+Discovered open port 3128/tcp on 172.30.1.252
+Discovered open port 3128/tcp on 172.30.1.241
+Discovered open port 3128/tcp on 172.30.1.237
+Discovered open port 3128/tcp on 172.30.1.242
+Discovered open port 3128/tcp on 172.30.1.248
+Discovered open port 3128/tcp on 172.30.1.249
+Discovered open port 3128/tcp on 172.30.1.194
+Discovered open port 3128/tcp on 172.30.1.195
+Discovered open port 3128/tcp on 172.30.1.251
+Discovered open port 3128/tcp on 172.30.1.243
+Completed SYN Stealth Scan against 172.30.1.199 in 9.54s (63 hosts left)
+Completed SYN Stealth Scan against 172.30.1.240 in 9.55s (62 hosts left)
+Completed SYN Stealth Scan against 172.30.1.215 in 9.66s (61 hosts left)
+Completed SYN Stealth Scan against 172.30.1.235 in 9.68s (60 hosts left)
+Completed SYN Stealth Scan against 172.30.1.250 in 9.68s (59 hosts left)
+Completed SYN Stealth Scan against 172.30.1.216 in 9.71s (58 hosts left)
+Completed SYN Stealth Scan against 172.30.1.206 in 9.73s (57 hosts left)
+Discovered open port 3128/tcp on 172.30.1.239
+Completed SYN Stealth Scan against 172.30.1.212 in 9.74s (56 hosts left)
+Completed SYN Stealth Scan against 172.30.1.236 in 9.74s (55 hosts left)
+Completed SYN Stealth Scan against 172.30.1.244 in 9.74s (54 hosts left)
+Completed SYN Stealth Scan against 172.30.1.247 in 9.74s (53 hosts left)
+Completed SYN Stealth Scan against 172.30.1.225 in 9.75s (52 hosts left)
+Completed SYN Stealth Scan against 172.30.1.230 in 9.75s (51 hosts left)
+Completed SYN Stealth Scan against 172.30.1.193 in 9.85s (50 hosts left)
+Completed SYN Stealth Scan against 172.30.1.200 in 9.85s (49 hosts left)
+Completed SYN Stealth Scan against 172.30.1.253 in 9.85s (48 hosts left)
+Completed SYN Stealth Scan against 172.30.1.197 in 9.86s (47 hosts left)
+Completed SYN Stealth Scan against 172.30.1.219 in 9.86s (46 hosts left)
+Completed SYN Stealth Scan against 172.30.1.192 in 9.87s (45 hosts left)
+Completed SYN Stealth Scan against 172.30.1.210 in 9.87s (44 hosts left)
+Completed SYN Stealth Scan against 172.30.1.233 in 9.87s (43 hosts left)
+Discovered open port 3128/tcp on 172.30.1.238
+Completed SYN Stealth Scan against 172.30.1.213 in 9.87s (42 hosts left)
+Completed SYN Stealth Scan against 172.30.1.218 in 9.87s (41 hosts left)
+Completed SYN Stealth Scan against 172.30.1.203 in 9.88s (40 hosts left)
+Completed SYN Stealth Scan against 172.30.1.191 in 9.89s (39 hosts left)
+Completed SYN Stealth Scan against 172.30.1.252 in 9.89s (38 hosts left)
+Completed SYN Stealth Scan against 172.30.1.254 in 9.89s (37 hosts left)
+Completed SYN Stealth Scan against 172.30.1.207 in 9.90s (36 hosts left)
+Completed SYN Stealth Scan against 172.30.1.202 in 9.91s (35 hosts left)
+Completed SYN Stealth Scan against 172.30.1.246 in 9.91s (34 hosts left)
+Completed SYN Stealth Scan against 172.30.1.232 in 9.91s (33 hosts left)
+Discovered open port 3128/tcp on 172.30.1.226
+Completed SYN Stealth Scan against 172.30.1.241 in 9.92s (32 hosts left)
+Completed SYN Stealth Scan against 172.30.1.237 in 9.92s (31 hosts left)
+Completed SYN Stealth Scan against 172.30.1.248 in 9.92s (30 hosts left)
+Completed SYN Stealth Scan against 172.30.1.208 in 9.93s (29 hosts left)
+Discovered open port 3128/tcp on 172.30.1.224
+Completed SYN Stealth Scan against 172.30.1.242 in 9.96s (28 hosts left)
+Completed SYN Stealth Scan against 172.30.1.249 in 10.05s (27 hosts left)
+Completed SYN Stealth Scan against 172.30.1.194 in 10.07s (26 hosts left)
+Completed SYN Stealth Scan against 172.30.1.195 in 10.10s (25 hosts left)
+Discovered open port 3128/tcp on 172.30.1.214
+Discovered open port 3128/tcp on 172.30.1.196
+Discovered open port 3128/tcp on 172.30.1.204
+Discovered open port 3128/tcp on 172.30.1.234
+Discovered open port 3128/tcp on 172.30.1.223
+Discovered open port 3128/tcp on 172.30.1.227
+Discovered open port 3128/tcp on 172.30.1.211
+Discovered open port 3128/tcp on 172.30.1.205
+Discovered open port 3128/tcp on 172.30.1.198
+Discovered open port 3128/tcp on 172.30.1.228
+Discovered open port 3128/tcp on 172.30.1.231
+Discovered open port 3128/tcp on 172.30.1.217
+Discovered open port 3128/tcp on 172.30.1.229
+Discovered open port 3128/tcp on 172.30.1.209
+Completed SYN Stealth Scan against 172.30.1.251 in 10.28s (24 hosts left)
+Discovered open port 3128/tcp on 172.30.1.245
+Discovered open port 3128/tcp on 172.30.1.201
+Discovered open port 3128/tcp on 172.30.1.222
+Discovered open port 3128/tcp on 172.30.1.221
+Completed SYN Stealth Scan against 172.30.1.243 in 10.30s (23 hosts left)
+Discovered open port 3128/tcp on 172.30.1.220
+Completed SYN Stealth Scan against 172.30.1.239 in 10.74s (22 hosts left)
+Completed SYN Stealth Scan against 172.30.1.238 in 10.76s (21 hosts left)
+Completed SYN Stealth Scan against 172.30.1.226 in 10.78s (20 hosts left)
+Completed SYN Stealth Scan against 172.30.1.224 in 10.92s (19 hosts left)
+Completed SYN Stealth Scan against 172.30.1.204 in 11.01s (18 hosts left)
+Completed SYN Stealth Scan against 172.30.1.196 in 11.03s (17 hosts left)
+Completed SYN Stealth Scan against 172.30.1.214 in 11.03s (16 hosts left)
+Completed SYN Stealth Scan against 172.30.1.234 in 11.03s (15 hosts left)
+Completed SYN Stealth Scan against 172.30.1.223 in 11.15s (14 hosts left)
+Completed SYN Stealth Scan against 172.30.1.227 in 11.15s (13 hosts left)
+Completed SYN Stealth Scan against 172.30.1.198 in 11.16s (12 hosts left)
+Completed SYN Stealth Scan against 172.30.1.211 in 11.16s (11 hosts left)
+Completed SYN Stealth Scan against 172.30.1.205 in 11.17s (10 hosts left)
+Completed SYN Stealth Scan against 172.30.1.201 in 11.17s (9 hosts left)
+Completed SYN Stealth Scan against 172.30.1.209 in 11.17s (8 hosts left)
+Completed SYN Stealth Scan against 172.30.1.217 in 11.17s (7 hosts left)
+Completed SYN Stealth Scan against 172.30.1.228 in 11.17s (6 hosts left)
+Completed SYN Stealth Scan against 172.30.1.231 in 11.17s (5 hosts left)
+Completed SYN Stealth Scan against 172.30.1.221 in 11.19s (4 hosts left)
+Completed SYN Stealth Scan against 172.30.1.222 in 11.19s (3 hosts left)
+Completed SYN Stealth Scan against 172.30.1.229 in 11.19s (2 hosts left)
+Completed SYN Stealth Scan against 172.30.1.245 in 11.19s (1 host left)
+Completed SYN Stealth Scan at 08:51, 11.20s elapsed (64000 total ports)
+Nmap scan report for 172.30.1.191
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.192
+Host is up, received syn-ack ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.193
+Host is up, received syn-ack ttl 64 (0.019s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.194
+Host is up, received reset ttl 64 (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.195
+Host is up, received reset ttl 64 (0.0093s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.196
+Host is up, received reset ttl 64 (0.0085s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.197
+Host is up, received reset ttl 64 (0.018s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.198
+Host is up, received reset ttl 64 (0.028s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.199
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.200
+Host is up, received reset ttl 64 (0.020s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.201
+Host is up, received reset ttl 64 (0.024s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.202
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.203
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.204
+Host is up, received syn-ack ttl 64 (0.0089s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.205
+Host is up, received syn-ack ttl 64 (0.033s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.206
+Host is up, received reset ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.207
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.208
+Host is up, received reset ttl 64 (0.0092s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.209
+Host is up, received reset ttl 64 (0.019s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.210
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.211
+Host is up, received reset ttl 64 (0.033s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.212
+Host is up, received reset ttl 64 (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.213
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.214
+Host is up, received reset ttl 64 (0.0086s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.215
+Host is up, received reset ttl 64 (0.020s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.216
+Host is up, received reset ttl 64 (0.013s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.217
+Host is up, received reset ttl 64 (0.020s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.218
+Host is up, received reset ttl 64 (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.219
+Host is up, received syn-ack ttl 64 (0.017s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.220
+Host is up, received syn-ack ttl 64 (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.221
+Host is up, received reset ttl 64 (0.015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.222
+Host is up, received reset ttl 64 (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.223
+Host is up, received syn-ack ttl 64 (0.037s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.224
+Host is up, received syn-ack ttl 64 (0.027s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.225
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.226
+Host is up, received syn-ack ttl 64 (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.227
+Host is up, received syn-ack ttl 64 (0.043s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.228
+Host is up, received reset ttl 64 (0.019s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.229
+Host is up, received reset ttl 64 (0.018s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.230
+Host is up, received syn-ack ttl 64 (0.0070s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.231
+Host is up, received syn-ack ttl 64 (0.023s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.232
+Host is up, received syn-ack ttl 64 (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.233
+Host is up, received syn-ack ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.234
+Host is up, received syn-ack ttl 64 (0.0086s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.235
+Host is up, received syn-ack ttl 64 (0.0057s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.236
+Host is up, received echo-reply ttl 64 (0.0066s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.237
+Host is up, received syn-ack ttl 64 (0.0084s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.238
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.239
+Host is up, received syn-ack ttl 64 (0.016s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.240
+Host is up, received syn-ack ttl 64 (0.0092s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.241
+Host is up, received reset ttl 64 (0.0097s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.242
+Host is up, received syn-ack ttl 64 (0.0086s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.243
+Host is up, received reset ttl 64 (0.0088s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.244
+Host is up, received reset ttl 64 (0.0070s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.245
+Host is up, received syn-ack ttl 64 (0.019s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.246
+Host is up, received syn-ack ttl 64 (0.0064s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.247
+Host is up, received syn-ack ttl 64 (0.0069s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.248
+Host is up, received syn-ack ttl 64 (0.0087s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.249
+Host is up, received syn-ack ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.250
+Host is up, received syn-ack ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.251
+Host is up, received syn-ack ttl 64 (0.014s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.252
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.253
+Host is up, received syn-ack ttl 64 (0.020s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Nmap scan report for 172.30.1.254
+Host is up, received syn-ack ttl 64 (0.012s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Initiating SYN Stealth Scan at 08:51
+Scanning 172.30.1.255 [1000 ports]
+Discovered open port 443/tcp on 172.30.1.255
+Discovered open port 8080/tcp on 172.30.1.255
+Discovered open port 80/tcp on 172.30.1.255
+Discovered open port 53/tcp on 172.30.1.255
+Discovered open port 3128/tcp on 172.30.1.255
+Completed SYN Stealth Scan at 08:51, 5.99s elapsed (1000 total ports)
+Nmap scan report for 172.30.1.255
+Host is up, received syn-ack ttl 64 (0.033s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE    REASON
+53/tcp   open  domain     syn-ack ttl 64
+80/tcp   open  http       syn-ack ttl 64
+443/tcp  open  https      syn-ack ttl 64
+3128/tcp open  squid-http syn-ack ttl 64
+8080/tcp open  http-proxy syn-ack ttl 64
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 257 IP addresses (257 hosts up) scanned in 87.27 seconds
+           Raw packets sent: 261105 (11.478MB) | Rcvd: 256351 (10.266MB)

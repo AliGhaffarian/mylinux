@@ -1,0 +1,2 @@
+1_a virtualized webserever on the same host, +cost cdn, -resource
+2_subdomain behind cdn, -cost cdn, 
