@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block main %}
+    <main>
+        <h2>Yay!</h2>
+        <p>Your request:</p>
+        <pre><code>{{ source }}</code></pre>
+        <p>Here is your artwork:</p>
+        <pre class="copyable"><code>{{ result }}</code></pre>
+        <p>Click anywhere to copy. <a href="/">Generate one more?</a></p>
+    </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const pre = document.querySelector("pre.copyable");
+            pre.addEventListener("click", function(ev) {
+                pre.className = "copyable";
+                navigator.clipboard.writeText(ev.target.textContent).then(() => {
+                    pre.className = "copied copyable";
+                });
+            });
+        });
+    </script>
+{% endblock %}

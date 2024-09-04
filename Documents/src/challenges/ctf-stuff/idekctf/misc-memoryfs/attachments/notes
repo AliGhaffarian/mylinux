@@ -1,0 +1,45 @@
+navigate function can "not strip last"?
+ striplast=True, 
+
+['cat', 'cd', 'create_flag', 'echo', 'ln', 'ls', 'mkdir', 'rm', 'touch']
+
+if i manage to cat /flag.txt or something...
+i need no to strip /
+
+
+create_flag:
+	if theres not a /flag.txt make it
+
+
+directory class:
+	a name
+	a list of children ( files probably )
+	is root flag
+	parent directory ( self if not set )
+		why not check for root?
+
+_navigate
+
+executions of function:
+		always 0 token is executed so cant cat flag.txt ever
+		returnnum, stdout str, strerr str
+
+
+ls ..
+
+    ret, stdout, stderr = getattr(self, tokens[0])(*tokens[1:])
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Shell.ls() takes 1 positional argument but 2 were given
+ 
+
+maybe i need to link flag to a text file then call it's read
+	-for that i need to fool ln function 
+
+token[0] wont be replaced with env vars
+important:
+	can symbolic link to . and ..
+
+change filename with _nav?
+how about injecting a dict?
+maybe assign flag.txt to $_ ( last command )
+	-flag.txt must be an entry in funcs to bypass command validation

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block main %}
+    <header>
+      <h1>
+        <p>Tired of BORING tweets and messages?</p>
+      </h1>
+    </header>
+    <main>
+      <p>Try our <b>NEW</b> tool to make your message more much awesome than it is now.</p>
+      <form action="" method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        {% if form.errors %}
+        <div class="error">
+        {% for field, errors in form.errors.items() %}
+        <p>{% if field %}{{ field }}:{% endif %} {{ " ".join(errors) }}</p>
+        {% endfor %}
+        </div>
+        {% endif %}
+        <label for="font">Font</label>
+        <select id="font" name="font" required>
+          <option selected disabled> - Choose the font -</option>
+          <option value="ascii9">Very Boring Font</option>
+          <option value="bigmono9">Also Boring but Modern Font</option>
+          <option value="circle">Not Big But In Fancy Circles</option>
+          <option value="mono12">Extra Bold</option>
+          <option value="smascii12">Cryptic One</option>
+          <option value="smbraille">Accessible Font (Well Not Quite)</option>
+        </select>
+        <div id="typing-panel">
+          <label for="text">Text</label>
+          <input type="text" name="text" id="text" />
+          <br/>
+          <button id="recording-init" type="button" aria-roledescription="This button allows you to record voice instead of typing text.">Can't type?</button>
+        </div>
+
+        <input type="file" name="file" id="file" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;" tabindex="-1" aria-hidden="true" />
+
+        <div id="recording-panel" class="recording recording-not-started" style="display: none;">
+          <label class="conditional when-not-started">Record text</label>
+          <button id="recording-start" class="conditional when-not-started" type="button">Start</button>
+          <label class="conditional when-started">Recording...</label>
+          <button id="recording-finish" class="conditional when-started" type="button">Finish</button>
+          <button id="recording-cancel" class="conditional when-started" type="button">Cancel</button>
+          <label class="conditional when-finished" id="recording-length">Error</label>
+          <button id="recording-undo" class="conditional when-not-started when-finished" type="button">Cancel</button>
+        </div>
+
+        <div class="g-recaptcha" data-sitekey="{{ recaptcha }}"></div>
+        <button type="submit">STOP BOREDOM</button>
+      </form>
+    </main>
+    <script src="/static/a11y.js"></script>
+    <script>
+      function onSubmit(token) {
+        document.querySelector("form").submit();
+      }
+    </script>
+{% endblock %}
