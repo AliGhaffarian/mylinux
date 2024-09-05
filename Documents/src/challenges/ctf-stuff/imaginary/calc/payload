@@ -1,2 +1,0 @@
-1 + int(open('Dockerfile','rb').read().hex(), 16)
-

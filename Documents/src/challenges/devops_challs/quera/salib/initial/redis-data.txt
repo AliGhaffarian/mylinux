@@ -1,9 +1,0 @@
-test1:1
-test2:2
-TEST1:TEST1
-12345:12345
-Test6:Test6
-tEsT7:tEsT7
-test8:[a,b,c]
-test9:(a,b,c)
-test10:{a:b,c:d}
