@@ -11,7 +11,7 @@ hi ColorColumn gui=NONE term=reverse,inverse cterm=NONE guifg=NONE guibg=DarkRed
 hi Comment gui=NONE term=bold cterm=NONE guifg=#80a0ff guibg=NONE ctermfg=111 ctermbg=NONE
 hi Conceal gui=NONE term=NONE cterm=NONE guifg=LightGrey guibg=DarkGrey ctermfg=252 ctermbg=248
 hi link Conditional Statement
-hi Constant gui=NONE term=underline cterm=NONE guifg=#ffa0a0 guibg=NONE ctermfg=217 ctermbg=NONE
+hi Constant term=underline ctermfg=215 guifg=#ffa0a0
 hi link CurSearch Search
 hi Cursor gui=NONE term=NONE cterm=NONE guifg=bg guibg=fg ctermfg=0 ctermbg=0
 hi CursorColumn gui=NONE term=reverse,inverse cterm=NONE guifg=NONE guibg=Grey40 ctermfg=NONE ctermbg=241
