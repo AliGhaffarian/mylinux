@@ -1,0 +1,255 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-14 13:00 +0330
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+Initiating NSE at 13:00
+Completed NSE at 13:00, 0.00s elapsed
+Initiating Ping Scan at 13:00
+Scanning 172.30.1.211 [4 ports]
+Completed Ping Scan at 13:00, 0.12s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 13:00
+Completed Parallel DNS resolution of 1 host. at 13:00, 0.01s elapsed
+Initiating SYN Stealth Scan at 13:00
+Scanning 172.30.1.211 [100 ports]
+Discovered open port 443/tcp on 172.30.1.211
+Discovered open port 8080/tcp on 172.30.1.211
+Discovered open port 80/tcp on 172.30.1.211
+Discovered open port 53/tcp on 172.30.1.211
+Discovered open port 3128/tcp on 172.30.1.211
+Completed SYN Stealth Scan at 13:00, 0.22s elapsed (100 total ports)
+Initiating Service scan at 13:00
+Scanning 5 services on 172.30.1.211
+Service scan Timing: About 40.00% done; ETC: 13:05 (0:02:41 remaining)
+Service scan Timing: About 60.00% done; ETC: 13:05 (0:01:40 remaining)
+Completed Service scan at 13:03, 164.37s elapsed (5 services on 1 host)
+Initiating OS detection (try #1) against 172.30.1.211
+Retrying OS detection (try #2) against 172.30.1.211
+Initiating Traceroute at 13:03
+Completed Traceroute at 13:03, 0.03s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 13:03
+Completed Parallel DNS resolution of 2 hosts. at 13:03, 0.01s elapsed
+NSE: Script scanning 172.30.1.211.
+Initiating NSE at 13:03
+Completed NSE at 13:04, 45.28s elapsed
+Initiating NSE at 13:04
+Completed NSE at 13:04, 1.13s elapsed
+Initiating NSE at 13:04
+Completed NSE at 13:04, 0.00s elapsed
+Nmap scan report for 172.30.1.211
+Host is up (0.019s latency).
+Not shown: 95 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+53/tcp   open  domain      (generic dns response: NOTIMP)
+80/tcp   open  http
+| fingerprint-strings: 
+|   SIPOptions: 
+|     HTTP/1.1 503 unknown method
+|     Content-Length: 119
+|     Date: Tue, 14 May 2024 09:28:45 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 503: unknown method</title></head>
+|     <body>
+|     <h1>Error 503: unknown method</h1>
+|     </body>
+|_    </html>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-title: Did not follow redirect to https://wifi.qiet.ac.ir/login?dst=http%3A%2F%2F172.30.1.211%2F
+443/tcp  open  ssl/https
+| ssl-cert: Subject: commonName=*.qiet.ac.ir
+| Subject Alternative Name: DNS:*.qiet.ac.ir, DNS:qiet.ac.ir
+| Issuer: commonName=Certum Domain Validation CA SHA2/organizationName=Unizeto Technologies S.A./countryName=PL
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2024-05-11T07:46:21
+| Not valid after:  2025-05-11T07:46:20
+| MD5:   e72f:47f3:b273:ce33:d65d:a50c:07e3:80dc
+|_SHA-1: e9f6:5937:3543:7fa5:3492:ffcd:fec6:d792:7e24:9d02
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_ssl-date: TLS randomness does not represent time
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.0 302 Hotspot login required
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Length: 135
+|     Content-Type: text/html
+|     Date: Tue, 14 May 2024 09:27:18 GMT
+|     Expires: 0
+|     Location: https://wifi.qiet.ac.ir/login?dst=https%3A%2F%2F172.30.1.211%2Fnice%2520ports%252C%2FTri%256Eity.txt%252ebak
+|     <html>
+|     <head><title>Error 302: Hotspot login required</title></head>
+|     <body>
+|     <h1>Error 302: Hotspot login required</h1>
+|     </body>
+|     </html>
+|   GenericLines: 
+|     HTTP/1.0 400 Bad Request
+|     Connection: close
+|     Content-Length: 113
+|     Date: Tue, 14 May 2024 09:27:23 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 400: Bad Request</title></head>
+|     <body>
+|     <h1>Error 400: Bad Request</h1>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.0 302 Hotspot login required
+|     Cache-Control: no-cache
+|     Connection: close
+|     Content-Length: 135
+|     Content-Type: text/html
+|     Date: Tue, 14 May 2024 09:27:18 GMT
+|     Expires: 0
+|     Location: https://wifi.qiet.ac.ir/login?dst=https%3A%2F%2F172.30.1.211%2F
+|     <html>
+|     <head><title>Error 302: Hotspot login required</title></head>
+|     <body>
+|     <h1>Error 302: Hotspot login required</h1>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.0 503 unknown method
+|     Connection: close
+|     Content-Length: 119
+|     Date: Tue, 14 May 2024 09:27:18 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 503: unknown method</title></head>
+|     <body>
+|     <h1>Error 503: unknown method</h1>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     HTTP/1.0 503 unknown method
+|     Connection: close
+|     Content-Length: 119
+|     Date: Tue, 14 May 2024 09:27:23 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 503: unknown method</title></head>
+|     <body>
+|     <h1>Error 503: unknown method</h1>
+|     </body>
+|_    </html>
+|_http-title: Did not follow redirect to https://wifi.qiet.ac.ir/login?dst=https%3A%2F%2F172.30.1.211%2F
+3128/tcp open  squid-http?
+|_http-open-proxy: Proxy might be redirecting requests
+| fingerprint-strings: 
+|   SIPOptions: 
+|     HTTP/1.1 503 unknown method
+|     Content-Length: 119
+|     Date: Tue, 14 May 2024 09:29:00 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 503: unknown method</title></head>
+|     <body>
+|     <h1>Error 503: unknown method</h1>
+|     </body>
+|_    </html>
+8080/tcp open  http-proxy
+|_http-title: Did not follow redirect to https://wifi.qiet.ac.ir/login?dst=http%3A%2F%2F172.30.1.211%3A8080%2F
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported:CONNECTION
+| fingerprint-strings: 
+|   SIPOptions: 
+|     HTTP/1.1 503 unknown method
+|     Content-Length: 119
+|     Date: Tue, 14 May 2024 09:28:54 GMT
+|     Expires: 0
+|     <html>
+|     <head><title>Error 503: unknown method</title></head>
+|     <body>
+|     <h1>Error 503: unknown method</h1>
+|     </body>
+|_    </html>
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+5 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port53-TCP:V=7.94SVN%I=7%D=5/14%Time=66432F5A%P=x86_64-pc-linux-gnu%r(D
+SF:NSVersionBindReqTCP,E,"\0\x0c\0\x06\x81\x84\0\0\0\0\0\0\0\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.94SVN%I=7%D=5/14%Time=66432FB3%P=x86_64-pc-linux-gnu%r(S
+SF:IPOptions,DC,"HTTP/1\.1\x20503\x20unknown\x20method\r\nContent-Length:\
+SF:x20119\r\nDate:\x20Tue,\x2014\x20May\x202024\x2009:28:45\x20GMT\r\nExpi
+SF:res:\x200\r\n\r\n<html>\n<head><title>Error\x20503:\x20unknown\x20metho
+SF:d</title></head>\n<body>\n<h1>Error\x20503:\x20unknown\x20method</h1>\n
+SF:</body>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.94SVN%T=SSL%I=7%D=5/14%Time=66432F5C%P=x86_64-pc-linux-
+SF:gnu%r(GetRequest,184,"HTTP/1\.0\x20302\x20Hotspot\x20login\x20required\
+SF:r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Length
+SF::\x20135\r\nContent-Type:\x20text/html\r\nDate:\x20Tue,\x2014\x20May\x2
+SF:02024\x2009:27:18\x20GMT\r\nExpires:\x200\r\nLocation:\x20https://wifi\
+SF:.qiet\.ac\.ir/login\?dst=https%3A%2F%2F172\.30\.1\.211%2F\r\n\r\n<html>
+SF:\n<head><title>Error\x20302:\x20Hotspot\x20login\x20required</title></h
+SF:ead>\n<body>\n<h1>Error\x20302:\x20Hotspot\x20login\x20required</h1>\n<
+SF:/body>\n</html>\n")%r(HTTPOptions,EF,"HTTP/1\.0\x20503\x20unknown\x20me
+SF:thod\r\nConnection:\x20close\r\nContent-Length:\x20119\r\nDate:\x20Tue,
+SF:\x2014\x20May\x202024\x2009:27:18\x20GMT\r\nExpires:\x200\r\n\r\n<html>
+SF:\n<head><title>Error\x20503:\x20unknown\x20method</title></head>\n<body
+SF:>\n<h1>Error\x20503:\x20unknown\x20method</h1>\n</body>\n</html>\n")%r(
+SF:FourOhFourRequest,1B1,"HTTP/1\.0\x20302\x20Hotspot\x20login\x20required
+SF:\r\nCache-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Lengt
+SF:h:\x20135\r\nContent-Type:\x20text/html\r\nDate:\x20Tue,\x2014\x20May\x
+SF:202024\x2009:27:18\x20GMT\r\nExpires:\x200\r\nLocation:\x20https://wifi
+SF:\.qiet\.ac\.ir/login\?dst=https%3A%2F%2F172\.30\.1\.211%2Fnice%2520port
+SF:s%252C%2FTri%256Eity\.txt%252ebak\r\n\r\n<html>\n<head><title>Error\x20
+SF:302:\x20Hotspot\x20login\x20required</title></head>\n<body>\n<h1>Error\
+SF:x20302:\x20Hotspot\x20login\x20required</h1>\n</body>\n</html>\n")%r(Ge
+SF:nericLines,E6,"HTTP/1\.0\x20400\x20Bad\x20Request\r\nConnection:\x20clo
+SF:se\r\nContent-Length:\x20113\r\nDate:\x20Tue,\x2014\x20May\x202024\x200
+SF:9:27:23\x20GMT\r\nExpires:\x200\r\n\r\n<html>\n<head><title>Error\x2040
+SF:0:\x20Bad\x20Request</title></head>\n<body>\n<h1>Error\x20400:\x20Bad\x
+SF:20Request</h1>\n</body>\n</html>\n")%r(RTSPRequest,EF,"HTTP/1\.0\x20503
+SF:\x20unknown\x20method\r\nConnection:\x20close\r\nContent-Length:\x20119
+SF:\r\nDate:\x20Tue,\x2014\x20May\x202024\x2009:27:23\x20GMT\r\nExpires:\x
+SF:200\r\n\r\n<html>\n<head><title>Error\x20503:\x20unknown\x20method</tit
+SF:le></head>\n<body>\n<h1>Error\x20503:\x20unknown\x20method</h1>\n</body
+SF:>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port3128-TCP:V=7.94SVN%I=7%D=5/14%Time=66432FC1%P=x86_64-pc-linux-gnu%r
+SF:(SIPOptions,DC,"HTTP/1\.1\x20503\x20unknown\x20method\r\nContent-Length
+SF::\x20119\r\nDate:\x20Tue,\x2014\x20May\x202024\x2009:29:00\x20GMT\r\nEx
+SF:pires:\x200\r\n\r\n<html>\n<head><title>Error\x20503:\x20unknown\x20met
+SF:hod</title></head>\n<body>\n<h1>Error\x20503:\x20unknown\x20method</h1>
+SF:\n</body>\n</html>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.94SVN%I=7%D=5/14%Time=66432FBC%P=x86_64-pc-linux-gnu%r
+SF:(SIPOptions,DC,"HTTP/1\.1\x20503\x20unknown\x20method\r\nContent-Length
+SF::\x20119\r\nDate:\x20Tue,\x2014\x20May\x202024\x2009:28:54\x20GMT\r\nEx
+SF:pires:\x200\r\n\r\n<html>\n<head><title>Error\x20503:\x20unknown\x20met
+SF:hod</title></head>\n<body>\n<h1>Error\x20503:\x20unknown\x20method</h1>
+SF:\n</body>\n</html>\n");
+Aggressive OS guesses: Cisco CP-DX80 collaboration endpoint (Android) (92%), Linux 3.6 - 3.10 (92%), Linux 4.4 (91%), Linux 2.6.35 (90%), Linksys EA3500 WAP (89%), Linux 3.7 (88%), Linux 2.6.32 - 3.10 (88%), Linux 2.6.32 - 3.5 (88%), Cisco CP-DX650 VoIP phone (Android 4.1.1) (87%), Linux 3.16 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.020 days (since Tue May 14 12:35:00 2024)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 587/tcp)
+HOP RTT      ADDRESS
+1   12.76 ms wifi.qiet.ac.ir (172.18.1.254)
+2   18.73 ms 172.30.1.211
+
+NSE: Script Post-scanning.
+Initiating NSE at 13:04
+Completed NSE at 13:04, 0.00s elapsed
+Initiating NSE at 13:04
+Completed NSE at 13:04, 0.00s elapsed
+Initiating NSE at 13:04
+Completed NSE at 13:04, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 214.98 seconds
+           Raw packets sent: 164 (11.752KB) | Rcvd: 165 (11.976KB)
