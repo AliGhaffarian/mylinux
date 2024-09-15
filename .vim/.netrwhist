@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/user/Documents/startup/backup_automate'
+let g:netrw_dirhist_3='/home/user/Documents/startup'
+let g:netrw_dirhist_2='/home/ali/Documents/src/wireshark/uni/airdump'
+let g:netrw_dirhist_1='/home/ali'
