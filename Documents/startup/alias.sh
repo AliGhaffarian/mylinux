@@ -29,16 +29,15 @@ AWESOME_BASH="/home/$USER/Clones/awesome-bash-scripts"
 TRACEROUTE="/home/$USER/Documents/src/traceroute"
 
 #temp
-CURRENT_CTF="/home/user/Documents/src/challenges/ctf-stuff/metactf"
+CURRENT_CTF="/home/user/Documents/src/challenges/ctf-stuff/pctf"
+PICO_CTF=$CTFPATH"/picoctf/gym"
 
 #todo
 TODO="\
 1_TCP flood\n\
-2_domjudge\n\
-3_eng resume to sigari\n\
-4_subject --> syn cookie: benefits, drawbacks, vulnerabilities\n\
+2_eng resume to sigari\n\
+3_subject --> syn cookie: benefits, drawbacks, vulnerabilities\n\
 * ad hoc networks\n\
-* import bitarray\n\
 * import netfilterqueue\n\
 * netfilter project\n"
 
@@ -47,4 +46,4 @@ function todo(){
 
 }
 
-todo
+#todo
