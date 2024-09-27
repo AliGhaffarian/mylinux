@@ -44,6 +44,8 @@ offered_addr=dhcp_response["yiaddr"]
 netmask=dhcp_response["options"]["subnet_mask"]
 router=dhcp_response["options"]["router"]
 
+print(dhcp_response)
+
 subprocess.run(\
         ["sudo","ip", "addr", "add", \
         f"{offered_addr}/{netmask}", "dev", sys.argv[1]])
