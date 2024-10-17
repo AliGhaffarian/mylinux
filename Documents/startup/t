@@ -1,0 +1,31 @@
+{
+    "op": 2,
+    "htype": 1,
+    "hlen": 6,
+    "hops": 0,
+    "xid": 17,
+    "secs": 0,
+    "flags": 0,
+    "ciaddr": "0.0.0.0",
+    "yiaddr": "192.168.221.95",
+    "siaddr": "192.168.221.17",
+    "giaddr": "0.0.0.0",
+    "chaddr": "fa:7b:df:f2:d:c",
+    "sname": "",
+    "file": "",
+    "cookie": "63:82:53",
+    "options": {
+        "message_type": 5,
+        "server_id": "192.168.221.17",
+        "lease_time": 3600,
+        "renewal_time": 1800,
+        "rebinding_time": 3150,
+        "subnet_mask": "255.255.255.0",
+        "router": [
+            "192.168.221.17"
+        ],
+        "name_server": [
+            "192.168.221.17"
+        ]
+    }
+}
