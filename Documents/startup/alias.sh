@@ -45,6 +45,7 @@ TRACEROUTE="/home/$USER/Documents/src/traceroute"
 TODO="\
 ${YELLOW}\
 ${NC}\
+* fix automated commits being counted
 * lora
 * convert proposal to word
 * refine proposal
