@@ -1,0 +1,11 @@
+python-sympy
+systemd
+libcgroup
+ghidra
+open-jdk
+pngcheck
+python-pycryptodome 
+pdfcpu
+deluge
+python-evdev
+python-numpy
