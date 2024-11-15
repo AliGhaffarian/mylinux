@@ -66,7 +66,6 @@ Haj mmdi -> read from serial port store in wav[LINUX]
 OS[UNI]
 ------
 DIGITAL[UNI]
-checkout algos to live by[UNI]
 process q 1 data[UNI]
 kea (dhcp)[NETWORK/LINUX]
 ------
@@ -81,12 +80,7 @@ record d1n0p13v3\
 "
 
 DONE="\
-forensics script to scrap out the connected domain names and resolved domainnames
-OJ test
-resume
-found https://github.com/parsiya/extract-sni
-progress on q 1
-hajmmdi\
+checkout algos to live by[UNI] -> amazing book\
 "
 
 LAST_CHECK_DATE_FILE=~/"Documents/startup/alias_files/last_check_date"
@@ -127,7 +121,7 @@ function todo(){
 
 PILLARS="\
 NETWORK/LINUX
-UNI
+UNI+
 COMPITITIONS+
 RBOOK+++++
 RUST++
