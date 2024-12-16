@@ -20,7 +20,9 @@ alias ida="/home/$USER/Tools/ida-pro-9.0/ida"
 alias unluac="java -jar /home/$USER/Tools/luadec/unluac_2023_12_24.jar"
 alias start_counting="cd /home/$USER/Documents/startup/alarm_automate; python3 alarm.py; cd -"
 alias open="mimeo"
-
+function dupterm(){
+		xfce4-terminal --working-directory="$(pwd)"
+}
 function wscan(){
 	sudo iwlist $1 scan
 }
@@ -60,12 +62,13 @@ AWESOME_BASH="/home/$USER/Clones/awesome-bash-scripts"
 
 TODO="\
 top down network mistake? page 290,295
-back github recovery codes
 DIGITAL assignment[UNI]->fix hazard in my module
 DIGITAL assignment[UNI]->3 exercises in each chapter
 ------
 arrange a test with pikashi[UNI]
 read source code: consume_skb and net_rx_action
+add give up msg to git-in-there
+optimize git-in-there
 add arg handling to git in there
 autosave for obsidian
 terminal based todo manager: download or implement
@@ -83,45 +86,6 @@ record d1n0p13v3\
 "
 
 DONE="\
-FMposter
-depcheck
-PhyLab -> thur
-DIGITAL assignment[UNI]
-Present VLANs[UNI]
-summarize siavash
-Review VLANs[NETWORK][UNI]
-awe lib test
-present game theory[UNI]
-learn more about HFT[UNI]
-Algo data[UNI]
-Read algos[UNI]
-ICMP Doc[NETWORK]
-OS[UNI]
-presented[UNI]
-Haj mmdi -> check if freq matters in wav files[LINUX]
-animate the slide[UNI]
-Setup ISE[UNI]
-Tech Report[UNI]
-s10 docs
-client server comm[SYSTEMPROGRAMMING]
-Impl the MWIS in C -> send to GH[UNI]
-progress on client[SYSTEMPROGRAMMING]
-progress on tech report[UNI]
-Tested Server[SYSTEMPROGRAMMING]
-Prim in C -> send to GH[UNI]
-rewrite oneway vault in C
-MSS in Syn Cookies?
-push challs to FM
-Did The slides[UNI]
-Practiced the slides like 4 times[UNI]
-S10 server[LINUX][SYSTEMPROGRAMMING]
-DIGITAL[UNI]
-ctf chall
-arranged pre presentation
-q3 [UNI/LINUX/NETWORK]
-zharf[NETWORK/LINUX]
-OS[UNI]
-checkout algos to live by[UNI] -> amazing book\
 "
 
 LAST_CHECK_DATE_FILE=~/"Documents/startup/alias_files/last_check_date"
@@ -156,18 +120,18 @@ function todo(){
 
 		echo ${GREEN}
 		echo $DONE | sed -e "s/^/\[done\]/g"
-		echo RESET 15 Dec
+		echo RESET 15 Jan
 		echo ${NC}
 
 }
 
 PILLARS="\
-NETWORK/LINUX     +++++++++
+NETWORK/LINUX     ++++++++++
 UNI               ++++++++++++++++++
 COMPITITIONS      +++
 RBOOK             ++++++
 RUST              ++
-SYSTEMPROGRAMMING +++++
+SYSTEMPROGRAMMING ++++++
 GERMANY
 -REVERSE
 "
