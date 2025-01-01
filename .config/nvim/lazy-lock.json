@@ -1,0 +1,5 @@
+{
+  "coc.nvim": { "branch": "master", "commit": "a6e54aedbc1a588f514801e51bf2c9e62aea5e6e" },
+  "lazy.nvim": { "branch": "main", "commit": "7e6c863bc7563efbdd757a310d17ebc95166cef3" },
+  "supertab": { "branch": "main", "commit": "8c638fe17b470f4a27554cdf8e641bafa5e2a7a4" }
+}
