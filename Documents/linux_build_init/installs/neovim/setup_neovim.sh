@@ -8,14 +8,15 @@ function download_and_cp() {
   tmpdir=$(mktemp -d)
   # download the latest zip file of repo in the /tmp then extract it.
   url="https://github.com/$conf_repo/archive/refs/heads/main.zip"
-  curl -L $url -o /tmp/$tmpdir/nvim_conf.zip 1>/dev/null 2> /dev/null
-  unzip /tmp/$tmpdir/nvim_conf.zip -d /tmp/extract_nvim_conf 1>/dev/null 2> /dev/null
-  cp -rf /tmp/$tmpdir/extract_nvim_conf/* ~
+  curl -L $url -o $tmpdir/nvim_conf.zip 1>/dev/null 2> /dev/null
+  unzip $tmpdir/nvim_conf.zip -d $tmpdir/extract_nvim_conf 1>/dev/null 2> /dev/null
+  cp -vrf $tmpdir/extract_nvim_conf/nvim_conf-main/* ~
+  cp -vrf $tmpdir/extract_nvim_conf/nvim_conf-main/.* ~
 }
 
 
 if ! depcheck_cmd "$req_file"; then
-		exit 1
+                exit 1
 fi
 
 download_and_cp
