@@ -1,0 +1,3 @@
+python-scapy,python3 -c "import scapy"
+python-pyroute2
+
