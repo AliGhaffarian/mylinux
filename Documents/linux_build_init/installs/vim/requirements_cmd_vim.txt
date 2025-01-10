@@ -1,4 +1,0 @@
-nodejs,node
-npm,npm
-curl,curl
-unzip,unzip
