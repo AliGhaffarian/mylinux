@@ -1,6 +1,0 @@
-#!/bin/bash
-
-INTERFACE=$1
-
-sudo ip link set $INTERFACE up
-silly_dhclient $INTERFACE -d
