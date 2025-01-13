@@ -147,9 +147,11 @@ function remind_to_check_in() {
 				figlet NICE
 				echo -n ${NC}
 				echo $(date +"$mystd_date_fmt") > "$LAST_CHECK_DATE_FILE"
+				reset_punish_time
 		else
 				figlet LAZY
 				GREEN="$RED"
+				punish_by_sleeping
 		fi
 
 
