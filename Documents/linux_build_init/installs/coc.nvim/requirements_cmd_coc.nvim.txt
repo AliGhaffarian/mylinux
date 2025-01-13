@@ -1,3 +1,0 @@
-nodejs,node
-npm,npm
-pwd,pwd
