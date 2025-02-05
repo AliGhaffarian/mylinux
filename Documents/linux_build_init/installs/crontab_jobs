@@ -1,0 +1,3 @@
+* 1 * * * python3 ~/Documents/startup/backup_automate/backup.py
+* * * * * bash ~/Documents/startup/bat.sh
+* * * * * bash ~/Documents/startup/alias_files/update_joke.sh

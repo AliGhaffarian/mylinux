@@ -1,0 +1,66 @@
+#!sudo /bin/python3
+import ipaddress
+import sys
+import os
+import argparse
+import logging
+
+RESOLV_CONF_PATH = "/etc/resolv.conf"
+
+
+
+class ACTION:
+    SET_DNS = 1
+    ADD_DNS = 2
+    
+    def from_str(string):
+        if(string == "set_dns"):
+            return ACTION.SET_DNS
+        if(string == "add_dns"):
+            return ACTION.ADD_DNS
+        return None
+
+
+
+def dns_action(ip : ipaddress.IPv4Address, action : ACTION = ACTION.SET_DNS)->int:
+    
+    command = "" 
+    if action == ACTION.SET_DNS:
+        command = f"sudo echo \"nameserver\t{ip.__str__()}\" > {RESOLV_CONF_PATH}"
+        logger.debug(command)
+    elif action == ACTION.ADD_DNS:
+        command = f"sudo echo \"nameserver\t{ip.__str__()}\" >> {RESOLV_CONF_PATH}"
+        logger.debug(command)
+
+    error_code = os.system(command)
+
+    if(error_code):
+        logger.error(f"error code of {command} : {error_code}")
+    return error_code
+    
+
+def handle_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-d", "--debug", help="debug logging", action="store_true", default=False)
+    parser.add_argument("-s", "--server", help="input ip", required=True, type=ipaddress.IPv4Address)
+    parser.add_argument("-a", "--action", help="options : set_dns, add_dns", type = str, default="set_dns")
+   
+    CONFIG = parser.parse_args()
+    
+    CONFIG.action = ACTION.from_str(CONFIG.action)
+    logger.debug(CONFIG) 
+    if (CONFIG.debug):
+        logging.basicConfig(level = 10)
+
+    if CONFIG.action is None:
+        logger.info("invalid action")
+        exit(1)
+
+    return CONFIG
+
+if __name__ == "__main__":
+    logger = logging.getLogger()
+
+    CONFIG  = handle_args()
+    dns_action(CONFIG.server, CONFIG.action)
+    
